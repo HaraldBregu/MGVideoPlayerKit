@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MGVideoPlayerKit_Example' do
+  pod 'MGVideoPlayerKit', :path => '../'
+
+  target 'MGVideoPlayerKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
