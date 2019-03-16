@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		07A7E89D247341867A3BC588 /* Pods-MGVideoPlayerKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGVideoPlayerKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MGVideoPlayerKit_Tests/Pods-MGVideoPlayerKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1911CEF0AAD210037FC99F4D /* Pods-MGVideoPlayerKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGVideoPlayerKit_Example.release.xcconfig"; path = "Target Support Files/Pods-MGVideoPlayerKit_Example/Pods-MGVideoPlayerKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1B78881F54DEDAF9952CD9F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1B78881F54DEDAF9952CD9F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1FF3BA430E3C1E3D7CE213DF /* Pods-MGVideoPlayerKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGVideoPlayerKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-MGVideoPlayerKit_Example/Pods-MGVideoPlayerKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MGVideoPlayerKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGVideoPlayerKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,8 +43,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6A3AD70713349128067D695B /* Pods_MGVideoPlayerKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGVideoPlayerKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		80CE51CB6DC4FCDF788C9D79 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		87947C9A1E6FD0F7544A49FE /* MGVideoPlayerKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MGVideoPlayerKit.podspec; path = ../MGVideoPlayerKit.podspec; sourceTree = "<group>"; };
+		80CE51CB6DC4FCDF788C9D79 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		87947C9A1E6FD0F7544A49FE /* MGVideoPlayerKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MGVideoPlayerKit.podspec; path = ../MGVideoPlayerKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D0B8FED46E2C9F2EBFE17074 /* Pods_MGVideoPlayerKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGVideoPlayerKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC19B5377EAE6768ED2931A4 /* Pods-MGVideoPlayerKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGVideoPlayerKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-MGVideoPlayerKit_Tests/Pods-MGVideoPlayerKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,6 @@
 				07A7E89D247341867A3BC588 /* Pods-MGVideoPlayerKit_Tests.debug.xcconfig */,
 				DC19B5377EAE6768ED2931A4 /* Pods-MGVideoPlayerKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

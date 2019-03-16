@@ -1,0 +1,22 @@
+{
+  "name": "MGVideoPlayerKit",
+  "version": "0.1.0",
+  "summary": "A short description of MGVideoPlayerKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/AldoOS/MGVideoPlayerKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AldoOS": "harald.bregu@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/AldoOS/MGVideoPlayerKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MGVideoPlayerKit/Classes/**/*"
+}

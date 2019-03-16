@@ -1,0 +1,16 @@
+PODS:
+  - MGVideoPlayerKit (0.1.0)
+
+DEPENDENCIES:
+  - MGVideoPlayerKit (from `../`)
+
+EXTERNAL SOURCES:
+  MGVideoPlayerKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MGVideoPlayerKit: 09abb599eea33882f8a089a6f313570cf3270a2b
+
+PODFILE CHECKSUM: c79454285b8ed0a8f5ba8c02d34ff550cfc55c54
+
+COCOAPODS: 1.6.1
