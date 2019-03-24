@@ -25,10 +25,53 @@
 
 import Foundation
 
-/// MGVideoPlayerKit Component
+/// MGVideoPlayerKit Component API
 public class MGVideoPlayer {
     
     public init() {
-        
+        self.listController = _listController
     }
+    
+    public var listController: MGVideoPlayerListController!
+    public var controller: MGVideoPlayerController!
 }
+
+fileprivate let storyboardName = "MGVideoPlayer"
+fileprivate let listControllerIdentifier = "MGVideoPlayerListController"
+fileprivate let controllerIdentifier = "MGVideoPlayerController"
+
+/// :nodoc:
+extension MGVideoPlayer {
+    
+    private var _listController: MGVideoPlayerListController {
+        guard let controller = _listViewController else { return MGVideoPlayerListController() }
+        return controller
+    }
+    
+    private var _listViewController: MGVideoPlayerListController? {
+        return _storyboard.instantiateViewController(withIdentifier: listControllerIdentifier) as? MGVideoPlayerListController
+    }
+    
+    private var _controller: MGVideoPlayerController {
+        guard let controller = _viewController else { return MGVideoPlayerController() }
+        return controller
+    }
+    
+    private var _viewController: MGVideoPlayerController? {
+        return _storyboard.instantiateViewController(withIdentifier: controllerIdentifier) as? MGVideoPlayerController
+    }
+    
+    private var _storyboard:UIStoryboard {
+        return UIStoryboard(name: _storyboardName, bundle: _storyboardBundle)
+    }
+    
+    private var _storyboardName:String {
+        return storyboardName
+    }
+    
+    private var _storyboardBundle:Bundle {
+        return Bundle(for: MGVideoPlayer.self)
+    }
+    
+}
+

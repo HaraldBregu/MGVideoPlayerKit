@@ -1,5 +1,5 @@
 // 
-//  MGVideoPlayerController.swift
+//  MGVideoPlayerListController.swift
 //
 //  Created by harald bregu on 16/03/2019.
 //  Copyright © 2019 Dream Building Company. All rights reserved.
@@ -23,14 +23,20 @@
 //  THE SOFTWARE.
 //
 
-import UIKit
+import Foundation
 
 /// :nodoc:
-public class MGVideoPlayerController: UIViewController {
+public class MGVideoPlayerListController:UIViewController {
+    @IBOutlet var tableView: UITableView!
+    private var searchController:UISearchController!
+    private var filteredVideos = [MGVideoPlayerData]()
+//    private var videos:[MGVideoPlayerData] {
+//        return VideoData.items
+//    }
+    var didTapMenu:((MGVideoPlayerListController) -> ()) = { _ in }
 
-    override public func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
-
     }
     
 }

@@ -7,314 +7,435 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01AEAFDD19989EC38191111D4C7BA891 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		03047652958E470C133A7C21ABA16EA5 /* MGVideoPlayerKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0069CF30A8C21553F01C93FDF024C4 /* MGVideoPlayerKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		06E479010559FA4FE2660B81B694C0D1 /* Pods-MGVideoPlayerKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5FBECF24FE489956C0379A4DC8BCA0 /* Pods-MGVideoPlayerKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1967A0ED583E8F4E2ADF2D9C195AAEDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		8A7FC243AD82A7D55689FA3615E26D54 /* Pods-MGVideoPlayerKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8619C76E54166EDF23EF56E2A796A560 /* Pods-MGVideoPlayerKit_Tests-dummy.m */; };
-		9A7832B9AC0027AA2A2F26D5F8FBE231 /* Pods-MGVideoPlayerKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB7260D529263053937EC1E6B509D17 /* Pods-MGVideoPlayerKit_Example-dummy.m */; };
-		9D68DA9E80B42271F317A53905170C2F /* Pods-MGVideoPlayerKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE7D360BC7BFEBBC51CA72861266EF34 /* Pods-MGVideoPlayerKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A96518B8223CFEA100523F59 /* MGVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96518B7223CFEA100523F59 /* MGVideoPlayer.swift */; };
-		A96518BA223D03DF00523F59 /* MGVideoPlayerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96518B9223D03DF00523F59 /* MGVideoPlayerData.swift */; };
-		A96518BC223D05BA00523F59 /* MGVideoPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96518BB223D05BA00523F59 /* MGVideoPlayerController.swift */; };
-		A96518BE223D072000523F59 /* MGVideoPlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96518BD223D072000523F59 /* MGVideoPlayer.storyboard */; };
-		B542C8089EE3678EFC63818756F5195C /* MGVideoPlayerKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9DDB4CF97F161F74D9BD3512C93C08 /* MGVideoPlayerKit-dummy.m */; };
-		D33D7C3F70C9BBD442B387EE708312D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		019A49BDEA03B1480F00D9AA70D4A8E3 /* CosmosLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E458D7FC1E2D6D740B52E85D130F6E64 /* CosmosLayers.swift */; };
+		01B3225A1C8D943DC0DC55ACBCBC842C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77D37F1FEDCB633E61B3254D3F67269 /* Foundation.framework */; };
+		0E8F3BED71419C7C20DD03C843CA9273 /* Cosmos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D64013E3E394F50AA4BA1ABDD7DD323C /* Cosmos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		176ADA0186A3C569DC24913E34D23930 /* StarFillMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AA17A0267F4F653083C079FBD47E5F /* StarFillMode.swift */; };
+		18F0A522E10C3E79809FDFDF48F3DC36 /* MGVideoPlayerKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B7560534F65D851C5BC803413C76C48F /* MGVideoPlayerKit.bundle */; };
+		1F0BD90C87B44B00D6754E5D3E2B9690 /* MGVideoPlayerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3569FBFE8D025C2ECE31E9D4354661C3 /* MGVideoPlayerListCell.swift */; };
+		29E1ADD749E2B64BEF3500AA1CFEA152 /* RightToLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF17970191D3C3E62465FBD73D3C5623 /* RightToLeft.swift */; };
+		2B9E82CBAC9EEF9D84F6E039DA927712 /* CosmosSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054BBED22C652DAFC5483D2EB071CB2C /* CosmosSize.swift */; };
+		3ACD96FD280355998DC76D83C4041191 /* StarLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93A0C5E4929315B0002C63C1B696CB4 /* StarLayer.swift */; };
+		41FF18BC9E47CAEAEB9D460C9EE3098F /* CosmosAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09170CF3197110572B6D0B236201D237 /* CosmosAccessibility.swift */; };
+		43A627725CC9E5B4120F1B2FF8ACE85C /* CosmosText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DB1ABF67311566A4C6ABF486302257 /* CosmosText.swift */; };
+		5B3AD699A195E003E9A322BBFAF6A6DD /* CosmosRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4F74B547A76C9DF3DB4919E1FD4124 /* CosmosRating.swift */; };
+		5C9709E85016C3B5ACF802D8FA61A635 /* MGVideoPlayerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C195DE4607CF413317F9ACB2736A9A /* MGVideoPlayerData.swift */; };
+		699372AAC7C9E574203CCDE50A039380 /* CosmosLayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE259E751DEE17B9771BE6829E2EE707 /* CosmosLayerHelper.swift */; };
+		7C43F88ED33B5795C880FD61FEDE9E65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77D37F1FEDCB633E61B3254D3F67269 /* Foundation.framework */; };
+		850BCAA324EB47D344D381508690404C /* MGVideoPlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90A84FC618A8A67B4EB529FA68047212 /* MGVideoPlayer.storyboard */; };
+		8558116CDD30CA25F588781CCFB18553 /* MGVideoPlayerListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC8D2AC5C90B39EBC3924E0031051CC /* MGVideoPlayerListController.swift */; };
+		8ADEF4293F5FCC27830E546289F702AF /* Cosmos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78896581C23D917B4A2C426A7E839732 /* Cosmos-dummy.m */; };
+		A83D20BC1E5A7FDD224F0C5077C2A091 /* CosmosDefaultSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281DAB66DA9E3282D634548DC5329E91 /* CosmosDefaultSettings.swift */; };
+		B04A118D571CCB8BA2BB70F8FA8688DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77D37F1FEDCB633E61B3254D3F67269 /* Foundation.framework */; };
+		BFED9B4B9129D1BFA75CF02100F4E819 /* CosmosSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622FE24F35229ED52D08EE29F1121DC6 /* CosmosSettings.swift */; };
+		C645A24304731AC9AC2FC41107A7DFE1 /* Pods-MGVideoPlayerKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0945DF3C78000E1A91813FCAB6B95B6 /* Pods-MGVideoPlayerKit_Example-dummy.m */; };
+		C8B186C99E0B468D487C8264A07B66C0 /* MGVideoPlayerKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 822E61779DFEF7DBAEE25D3698CB788A /* MGVideoPlayerKit-dummy.m */; };
+		D0C7638C43B7EDD1CCF02F77874F2C07 /* MGVideoPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549882CD30A3382E6AC58B3684399961 /* MGVideoPlayerController.swift */; };
+		D32EDABDB35D680162F24D8F7B3E9910 /* CosmosTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221BA6F3471E26E8443A77FB17304977 /* CosmosTouch.swift */; };
+		D9C08DF8CDCAAFE6019B5572B1F77D63 /* CosmosTouchTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82490CF920691470A304E35A0C051EF /* CosmosTouchTarget.swift */; };
+		E053AFDF06841D56502B8BBCA4C8BA5A /* MGVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840242682F90B39CBFF4960DAE34D0E2 /* MGVideoPlayer.swift */; };
+		E77D1F170F73E6100702172CE03E5B35 /* CosmosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C880638F624858453499299C24130F3 /* CosmosView.swift */; };
+		E795BAA7B94A55F882359B26307D6221 /* Pods-MGVideoPlayerKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 586DBA31C146A1EB6B10F3CBC4878182 /* Pods-MGVideoPlayerKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F29A271D771689066DD8CF412E7F39E5 /* MGVideoPlayerKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD1268E75DE97CE5DC3F179DD758D6B /* MGVideoPlayerKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F94896D5C0E04394659593CFB22A8E22 /* Cosmos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1C08A49741BDFBF25CE970DEC0B6AE /* Cosmos.framework */; };
+		F9D4C20CACC4256625BDBEAB4F5E992C /* CosmosLocalizedRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1EEF4B663E3B39881A0CC49EC3026E /* CosmosLocalizedRating.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B828DA252BB7FB6C428FD161551407E2 /* PBXContainerItemProxy */ = {
+		0405F8BECE6EDCF2600F5D201D81FB21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 735D87686D95E6B0B0B9591D01BC70C3;
-			remoteInfo = "Pods-MGVideoPlayerKit_Example";
+			remoteGlobalIDString = 64A5B0D84D8579CF3E24DF2C12D99B08;
+			remoteInfo = Cosmos;
 		};
-		F85B0986F5AD9A1BEE58A4B636A0D78F /* PBXContainerItemProxy */ = {
+		3900F063E3BA80414A360BBF938DC352 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E88B3784774489AD2F18692A3DC67029;
+			remoteGlobalIDString = 64A5B0D84D8579CF3E24DF2C12D99B08;
+			remoteInfo = Cosmos;
+		};
+		4FA9D9E70C9BA42C35876D3A68AC6A87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 071A4A9A19DE7B6F54C5E6EE67B4543C;
 			remoteInfo = MGVideoPlayerKit;
+		};
+		D17ACD93D338506D488F00498F90E31A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70E26BFA93A969A2A2D63C86F434AD5A;
+			remoteInfo = "MGVideoPlayerKit-MGVideoPlayerKit";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		14782A3F1C1DC26FD3F1694E1E39994C /* MGVideoPlayerKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGVideoPlayerKit.xcconfig; sourceTree = "<group>"; };
-		1D70A37D77AFC03907C2F92A8B6E483C /* MGVideoPlayerKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MGVideoPlayerKit.modulemap; sourceTree = "<group>"; };
-		1E6FF448EAB1BE9F6BE86FA0314D994A /* Pods-MGVideoPlayerKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MGVideoPlayerKit_Tests.modulemap"; sourceTree = "<group>"; };
-		25B6E85AAC848D4DC7564A23958173F5 /* Pods-MGVideoPlayerKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MGVideoPlayerKit_Example.modulemap"; sourceTree = "<group>"; };
-		25FE03BA80517364DC5F3B4F5FB1E03C /* Pods-MGVideoPlayerKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGVideoPlayerKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2954A35D53D4E99BFFEB6573D82EEE01 /* MGVideoPlayerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MGVideoPlayerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		296C1BD588AEE4A4F095F6BF0C9A6D49 /* Pods-MGVideoPlayerKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGVideoPlayerKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		2B0069CF30A8C21553F01C93FDF024C4 /* MGVideoPlayerKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGVideoPlayerKit-umbrella.h"; sourceTree = "<group>"; };
-		49422B1C597CB966D7D897B8E3D899F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		537316065CEB6E02F72E5007E27AB73B /* MGVideoPlayerKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGVideoPlayerKit-prefix.pch"; sourceTree = "<group>"; };
-		5617E62957C944C875EE3AB6D8F10F85 /* Pods-MGVideoPlayerKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGVideoPlayerKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5B42174B31B39A0C36C72D741D7E1898 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		6336D3A2CB6DA6566D16DA09F01DBF10 /* Pods-MGVideoPlayerKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MGVideoPlayerKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8619C76E54166EDF23EF56E2A796A560 /* Pods-MGVideoPlayerKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MGVideoPlayerKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		893A499187165FAA5A6E066F48CB01BC /* MGVideoPlayerKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MGVideoPlayerKit-Info.plist"; sourceTree = "<group>"; };
-		8BB7260D529263053937EC1E6B509D17 /* Pods-MGVideoPlayerKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MGVideoPlayerKit_Example-dummy.m"; sourceTree = "<group>"; };
-		8D4A7747907CEE261218C3F2A49DCC8C /* Pods-MGVideoPlayerKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGVideoPlayerKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		975FE264E4BA4815E4D4ECCBF36E7D65 /* Pods-MGVideoPlayerKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGVideoPlayerKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		99C094320DD6952B61FC8932DCD65668 /* Pods_MGVideoPlayerKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGVideoPlayerKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A96518B7223CFEA100523F59 /* MGVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MGVideoPlayer.swift; path = MGVideoPlayerKit/Classes/MGVideoPlayer.swift; sourceTree = "<group>"; };
-		A96518B9223D03DF00523F59 /* MGVideoPlayerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MGVideoPlayerData.swift; path = MGVideoPlayerKit/Classes/MGVideoPlayerData.swift; sourceTree = "<group>"; };
-		A96518BB223D05BA00523F59 /* MGVideoPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MGVideoPlayerController.swift; path = MGVideoPlayerKit/Classes/MGVideoPlayerController.swift; sourceTree = "<group>"; };
-		A96518BD223D072000523F59 /* MGVideoPlayer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = MGVideoPlayer.storyboard; path = MGVideoPlayerKit/Assets/MGVideoPlayer.storyboard; sourceTree = "<group>"; };
-		B753B9AEBA00EFF687C8D6A34D3D137F /* Pods-MGVideoPlayerKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGVideoPlayerKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BCA0131B59BC09C9C53EBC6E7D21C19A /* MGVideoPlayerKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MGVideoPlayerKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BF62C3A5A7716ED4FA14E547924EDF0E /* Pods_MGVideoPlayerKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGVideoPlayerKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C81D9EEB147FD7369BD1C5BDEF5ADA86 /* Pods-MGVideoPlayerKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MGVideoPlayerKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CBD425C7E13ACA0ED388706EDF981DE6 /* Pods-MGVideoPlayerKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGVideoPlayerKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		EA5FBECF24FE489956C0379A4DC8BCA0 /* Pods-MGVideoPlayerKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MGVideoPlayerKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		ED1B4ECAC4EDE983C2EA5162DCC38398 /* Pods-MGVideoPlayerKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGVideoPlayerKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		EE9DDB4CF97F161F74D9BD3512C93C08 /* MGVideoPlayerKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGVideoPlayerKit-dummy.m"; sourceTree = "<group>"; };
-		F2A4B0E36EF1CC99C9D169538E785F63 /* Pods-MGVideoPlayerKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGVideoPlayerKit_Example-Info.plist"; sourceTree = "<group>"; };
-		FE7D360BC7BFEBBC51CA72861266EF34 /* Pods-MGVideoPlayerKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MGVideoPlayerKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		054BBED22C652DAFC5483D2EB071CB2C /* CosmosSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosSize.swift; path = Cosmos/CosmosSize.swift; sourceTree = "<group>"; };
+		09170CF3197110572B6D0B236201D237 /* CosmosAccessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosAccessibility.swift; path = Cosmos/CosmosAccessibility.swift; sourceTree = "<group>"; };
+		09780C019D7EDB156A3B6EAABA1F3C76 /* MGVideoPlayerKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGVideoPlayerKit.xcconfig; sourceTree = "<group>"; };
+		0A1C08A49741BDFBF25CE970DEC0B6AE /* Cosmos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cosmos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D94D33608CEE312C7710CF5BB7DDA83 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		15AA17A0267F4F653083C079FBD47E5F /* StarFillMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarFillMode.swift; path = Cosmos/StarFillMode.swift; sourceTree = "<group>"; };
+		1F5A4DB5C4C470E870E1E675E8EF6BD1 /* Pods-MGVideoPlayerKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGVideoPlayerKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		221BA6F3471E26E8443A77FB17304977 /* CosmosTouch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouch.swift; path = Cosmos/CosmosTouch.swift; sourceTree = "<group>"; };
+		240D9FED98614F915BB98A74CADDF6BC /* Pods-MGVideoPlayerKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGVideoPlayerKit_Example-Info.plist"; sourceTree = "<group>"; };
+		281DAB66DA9E3282D634548DC5329E91 /* CosmosDefaultSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosDefaultSettings.swift; path = Cosmos/CosmosDefaultSettings.swift; sourceTree = "<group>"; };
+		281DDCA24FF9817AC7F89ED3B920B7F8 /* MGVideoPlayerKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGVideoPlayerKit-prefix.pch"; sourceTree = "<group>"; };
+		2C880638F624858453499299C24130F3 /* CosmosView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosView.swift; path = Cosmos/CosmosView.swift; sourceTree = "<group>"; };
+		2EC8D2AC5C90B39EBC3924E0031051CC /* MGVideoPlayerListController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MGVideoPlayerListController.swift; path = MGVideoPlayerKit/Classes/MGVideoPlayerListController.swift; sourceTree = "<group>"; };
+		31ED04AB60DC462A76EA7A97B402D317 /* Cosmos-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cosmos-prefix.pch"; sourceTree = "<group>"; };
+		3569FBFE8D025C2ECE31E9D4354661C3 /* MGVideoPlayerListCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MGVideoPlayerListCell.swift; path = MGVideoPlayerKit/Classes/MGVideoPlayerListCell.swift; sourceTree = "<group>"; };
+		3DCFC4CA7DCE096B197B486D7F799C6B /* MGVideoPlayerKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MGVideoPlayerKit-Info.plist"; sourceTree = "<group>"; };
+		45BD82099C429648C7F3E5E5869A4C90 /* MGVideoPlayerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MGVideoPlayerKit.framework; path = MGVideoPlayerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C4DD37CA5CE6E97177BAA58D9871911 /* Cosmos-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Cosmos-Info.plist"; sourceTree = "<group>"; };
+		4DECC9CD577BBB5288A0986597EAB382 /* Pods-MGVideoPlayerKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGVideoPlayerKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		549882CD30A3382E6AC58B3684399961 /* MGVideoPlayerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MGVideoPlayerController.swift; path = MGVideoPlayerKit/Classes/MGVideoPlayerController.swift; sourceTree = "<group>"; };
+		586DBA31C146A1EB6B10F3CBC4878182 /* Pods-MGVideoPlayerKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MGVideoPlayerKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		622FE24F35229ED52D08EE29F1121DC6 /* CosmosSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosSettings.swift; path = Cosmos/CosmosSettings.swift; sourceTree = "<group>"; };
+		6489F8AC4F5B8CC57592EC95796ADC02 /* Pods-MGVideoPlayerKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGVideoPlayerKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		69DB1ABF67311566A4C6ABF486302257 /* CosmosText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosText.swift; path = Cosmos/CosmosText.swift; sourceTree = "<group>"; };
+		7639CDD51CF428CCE2A253249A87233D /* Pods-MGVideoPlayerKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGVideoPlayerKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		78896581C23D917B4A2C426A7E839732 /* Cosmos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cosmos-dummy.m"; sourceTree = "<group>"; };
+		813A252DEE2B41BE6B659E6F804354A5 /* Cosmos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Cosmos.modulemap; sourceTree = "<group>"; };
+		822E61779DFEF7DBAEE25D3698CB788A /* MGVideoPlayerKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGVideoPlayerKit-dummy.m"; sourceTree = "<group>"; };
+		8358CE44D7E2714D6E77F3F12404DC35 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		840242682F90B39CBFF4960DAE34D0E2 /* MGVideoPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MGVideoPlayer.swift; path = MGVideoPlayerKit/Classes/MGVideoPlayer.swift; sourceTree = "<group>"; };
+		884E931A2DC63405412E5FD536651C64 /* Pods-MGVideoPlayerKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MGVideoPlayerKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8E2346BC13DB309F1C4D6C7E003B4FFE /* Cosmos.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cosmos.xcconfig; sourceTree = "<group>"; };
+		90A84FC618A8A67B4EB529FA68047212 /* MGVideoPlayer.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = MGVideoPlayer.storyboard; path = MGVideoPlayerKit/Assets/MGVideoPlayer.storyboard; sourceTree = "<group>"; };
+		9B4F74B547A76C9DF3DB4919E1FD4124 /* CosmosRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosRating.swift; path = Cosmos/CosmosRating.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A82490CF920691470A304E35A0C051EF /* CosmosTouchTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouchTarget.swift; path = Cosmos/Helpers/CosmosTouchTarget.swift; sourceTree = "<group>"; };
+		AA0948081BA0B56D79D3B3FC6B0D0FAD /* MGVideoPlayerKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MGVideoPlayerKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B3432F93E372964260C489026A5689D6 /* Pods_MGVideoPlayerKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MGVideoPlayerKit_Example.framework; path = "Pods-MGVideoPlayerKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7560534F65D851C5BC803413C76C48F /* MGVideoPlayerKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MGVideoPlayerKit.bundle; path = "MGVideoPlayerKit-MGVideoPlayerKit.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77D37F1FEDCB633E61B3254D3F67269 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B93A0C5E4929315B0002C63C1B696CB4 /* StarLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarLayer.swift; path = Cosmos/StarLayer.swift; sourceTree = "<group>"; };
+		C44FD01B0B0772DB7B75E6E0B01214ED /* MGVideoPlayerKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MGVideoPlayerKit.modulemap; sourceTree = "<group>"; };
+		CF17970191D3C3E62465FBD73D3C5623 /* RightToLeft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RightToLeft.swift; path = Cosmos/Helpers/RightToLeft.swift; sourceTree = "<group>"; };
+		D2C195DE4607CF413317F9ACB2736A9A /* MGVideoPlayerData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MGVideoPlayerData.swift; path = MGVideoPlayerKit/Classes/MGVideoPlayerData.swift; sourceTree = "<group>"; };
+		D5678EB5010255E1F537ADF506B4A524 /* Cosmos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cosmos.framework; path = Cosmos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D64013E3E394F50AA4BA1ABDD7DD323C /* Cosmos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cosmos-umbrella.h"; sourceTree = "<group>"; };
+		DCAAD5979E631411DE5337EEDD7D4AAE /* Pods-MGVideoPlayerKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MGVideoPlayerKit_Example.modulemap"; sourceTree = "<group>"; };
+		E310C707F3BE8B530C38B08A0DF5F27F /* ResourceBundle-MGVideoPlayerKit-MGVideoPlayerKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MGVideoPlayerKit-MGVideoPlayerKit-Info.plist"; sourceTree = "<group>"; };
+		E458D7FC1E2D6D740B52E85D130F6E64 /* CosmosLayers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLayers.swift; path = Cosmos/CosmosLayers.swift; sourceTree = "<group>"; };
+		EE1EEF4B663E3B39881A0CC49EC3026E /* CosmosLocalizedRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLocalizedRating.swift; path = Cosmos/CosmosLocalizedRating.swift; sourceTree = "<group>"; };
+		EE259E751DEE17B9771BE6829E2EE707 /* CosmosLayerHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLayerHelper.swift; path = Cosmos/CosmosLayerHelper.swift; sourceTree = "<group>"; };
+		F0945DF3C78000E1A91813FCAB6B95B6 /* Pods-MGVideoPlayerKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MGVideoPlayerKit_Example-dummy.m"; sourceTree = "<group>"; };
+		FDD1268E75DE97CE5DC3F179DD758D6B /* MGVideoPlayerKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGVideoPlayerKit-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		128360CFD76593DBFF83FD3CCDBFC053 /* Frameworks */ = {
+		5E27E4FF6595BD818E8BBB72E9AED50C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D33D7C3F70C9BBD442B387EE708312D7 /* Foundation.framework in Frameworks */,
+				7C43F88ED33B5795C880FD61FEDE9E65 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2BF6D6DDB911A1A1404211A0A99F7A7F /* Frameworks */ = {
+		8FD368C0428EE06FFDAB1A9F484AA4DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01AEAFDD19989EC38191111D4C7BA891 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C94A234CEC153243C2264DDAAEC38B5 /* Frameworks */ = {
+		CC7CDEDFE0D058B6E139C8A3450103D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1967A0ED583E8F4E2ADF2D9C195AAEDF /* Foundation.framework in Frameworks */,
+				F94896D5C0E04394659593CFB22A8E22 /* Cosmos.framework in Frameworks */,
+				B04A118D571CCB8BA2BB70F8FA8688DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59D1824389292B7F158688458BE1165 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B3225A1C8D943DC0DC55ACBCBC842C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0846E8A42286B1562B4DC2DAD5054252 /* Products */ = {
+		1DCE8036187CE43598D14AC4E11DE534 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2954A35D53D4E99BFFEB6573D82EEE01 /* MGVideoPlayerKit.framework */,
-				BF62C3A5A7716ED4FA14E547924EDF0E /* Pods_MGVideoPlayerKit_Example.framework */,
-				99C094320DD6952B61FC8932DCD65668 /* Pods_MGVideoPlayerKit_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		0A078C4E859F04CE74E8C484CAE9B45D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5220C454EDFEE5B3AB788F30E3770A1A /* MGVideoPlayerKit */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		413200D3FFB0ED123A96A89678DD6EEF /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C2195F60F788D3CC856E07E5A9E52738 /* Pods-MGVideoPlayerKit_Example */,
-				B45701C390F2EEA81BC2D83118517B47 /* Pods-MGVideoPlayerKit_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		5220C454EDFEE5B3AB788F30E3770A1A /* MGVideoPlayerKit */ = {
-			isa = PBXGroup;
-			children = (
-				A96518B7223CFEA100523F59 /* MGVideoPlayer.swift */,
-				A96518B9223D03DF00523F59 /* MGVideoPlayerData.swift */,
-				A96518BB223D05BA00523F59 /* MGVideoPlayerController.swift */,
-				A96518BD223D072000523F59 /* MGVideoPlayer.storyboard */,
-				882A9FD244D35AD60BDE3B39E783FC6A /* Pod */,
-				A10A695BE3E75EC61B9AA8FDA90F7F70 /* Support Files */,
-			);
-			name = MGVideoPlayerKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		882A9FD244D35AD60BDE3B39E783FC6A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				49422B1C597CB966D7D897B8E3D899F6 /* LICENSE */,
-				BCA0131B59BC09C9C53EBC6E7D21C19A /* MGVideoPlayerKit.podspec */,
-				5B42174B31B39A0C36C72D741D7E1898 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		A10A695BE3E75EC61B9AA8FDA90F7F70 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1D70A37D77AFC03907C2F92A8B6E483C /* MGVideoPlayerKit.modulemap */,
-				14782A3F1C1DC26FD3F1694E1E39994C /* MGVideoPlayerKit.xcconfig */,
-				EE9DDB4CF97F161F74D9BD3512C93C08 /* MGVideoPlayerKit-dummy.m */,
-				893A499187165FAA5A6E066F48CB01BC /* MGVideoPlayerKit-Info.plist */,
-				537316065CEB6E02F72E5007E27AB73B /* MGVideoPlayerKit-prefix.pch */,
-				2B0069CF30A8C21553F01C93FDF024C4 /* MGVideoPlayerKit-umbrella.h */,
+				C44FD01B0B0772DB7B75E6E0B01214ED /* MGVideoPlayerKit.modulemap */,
+				09780C019D7EDB156A3B6EAABA1F3C76 /* MGVideoPlayerKit.xcconfig */,
+				822E61779DFEF7DBAEE25D3698CB788A /* MGVideoPlayerKit-dummy.m */,
+				3DCFC4CA7DCE096B197B486D7F799C6B /* MGVideoPlayerKit-Info.plist */,
+				281DDCA24FF9817AC7F89ED3B920B7F8 /* MGVideoPlayerKit-prefix.pch */,
+				FDD1268E75DE97CE5DC3F179DD758D6B /* MGVideoPlayerKit-umbrella.h */,
+				E310C707F3BE8B530C38B08A0DF5F27F /* ResourceBundle-MGVideoPlayerKit-MGVideoPlayerKit-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/MGVideoPlayerKit";
 			sourceTree = "<group>";
 		};
-		B45701C390F2EEA81BC2D83118517B47 /* Pods-MGVideoPlayerKit_Tests */ = {
+		1EEF3410A7BAA1DA5F110A17B8CD6B19 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1E6FF448EAB1BE9F6BE86FA0314D994A /* Pods-MGVideoPlayerKit_Tests.modulemap */,
-				6336D3A2CB6DA6566D16DA09F01DBF10 /* Pods-MGVideoPlayerKit_Tests-acknowledgements.markdown */,
-				ED1B4ECAC4EDE983C2EA5162DCC38398 /* Pods-MGVideoPlayerKit_Tests-acknowledgements.plist */,
-				8619C76E54166EDF23EF56E2A796A560 /* Pods-MGVideoPlayerKit_Tests-dummy.m */,
-				296C1BD588AEE4A4F095F6BF0C9A6D49 /* Pods-MGVideoPlayerKit_Tests-Info.plist */,
-				EA5FBECF24FE489956C0379A4DC8BCA0 /* Pods-MGVideoPlayerKit_Tests-umbrella.h */,
-				25FE03BA80517364DC5F3B4F5FB1E03C /* Pods-MGVideoPlayerKit_Tests.debug.xcconfig */,
-				8D4A7747907CEE261218C3F2A49DCC8C /* Pods-MGVideoPlayerKit_Tests.release.xcconfig */,
+				8F4D1C63B44080452E2F201339C050CD /* Cosmos */,
 			);
-			name = "Pods-MGVideoPlayerKit_Tests";
-			path = "Target Support Files/Pods-MGVideoPlayerKit_Tests";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		C2195F60F788D3CC856E07E5A9E52738 /* Pods-MGVideoPlayerKit_Example */ = {
+		353BFE3493CA1967225C97EAA37E3C97 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				25B6E85AAC848D4DC7564A23958173F5 /* Pods-MGVideoPlayerKit_Example.modulemap */,
-				C81D9EEB147FD7369BD1C5BDEF5ADA86 /* Pods-MGVideoPlayerKit_Example-acknowledgements.markdown */,
-				5617E62957C944C875EE3AB6D8F10F85 /* Pods-MGVideoPlayerKit_Example-acknowledgements.plist */,
-				8BB7260D529263053937EC1E6B509D17 /* Pods-MGVideoPlayerKit_Example-dummy.m */,
-				CBD425C7E13ACA0ED388706EDF981DE6 /* Pods-MGVideoPlayerKit_Example-frameworks.sh */,
-				F2A4B0E36EF1CC99C9D169538E785F63 /* Pods-MGVideoPlayerKit_Example-Info.plist */,
-				FE7D360BC7BFEBBC51CA72861266EF34 /* Pods-MGVideoPlayerKit_Example-umbrella.h */,
-				B753B9AEBA00EFF687C8D6A34D3D137F /* Pods-MGVideoPlayerKit_Example.debug.xcconfig */,
-				975FE264E4BA4815E4D4ECCBF36E7D65 /* Pods-MGVideoPlayerKit_Example.release.xcconfig */,
+				B77D37F1FEDCB633E61B3254D3F67269 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3B85B43F038C0C44D5EF02FDCD9B4865 /* Pods-MGVideoPlayerKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DCAAD5979E631411DE5337EEDD7D4AAE /* Pods-MGVideoPlayerKit_Example.modulemap */,
+				884E931A2DC63405412E5FD536651C64 /* Pods-MGVideoPlayerKit_Example-acknowledgements.markdown */,
+				1F5A4DB5C4C470E870E1E675E8EF6BD1 /* Pods-MGVideoPlayerKit_Example-acknowledgements.plist */,
+				F0945DF3C78000E1A91813FCAB6B95B6 /* Pods-MGVideoPlayerKit_Example-dummy.m */,
+				7639CDD51CF428CCE2A253249A87233D /* Pods-MGVideoPlayerKit_Example-frameworks.sh */,
+				240D9FED98614F915BB98A74CADDF6BC /* Pods-MGVideoPlayerKit_Example-Info.plist */,
+				586DBA31C146A1EB6B10F3CBC4878182 /* Pods-MGVideoPlayerKit_Example-umbrella.h */,
+				6489F8AC4F5B8CC57592EC95796ADC02 /* Pods-MGVideoPlayerKit_Example.debug.xcconfig */,
+				4DECC9CD577BBB5288A0986597EAB382 /* Pods-MGVideoPlayerKit_Example.release.xcconfig */,
 			);
 			name = "Pods-MGVideoPlayerKit_Example";
 			path = "Target Support Files/Pods-MGVideoPlayerKit_Example";
+			sourceTree = "<group>";
+		};
+		5A33F5562EA7194596B91B1BBDECE6E9 /* MGVideoPlayerKit */ = {
+			isa = PBXGroup;
+			children = (
+				840242682F90B39CBFF4960DAE34D0E2 /* MGVideoPlayer.swift */,
+				549882CD30A3382E6AC58B3684399961 /* MGVideoPlayerController.swift */,
+				D2C195DE4607CF413317F9ACB2736A9A /* MGVideoPlayerData.swift */,
+				3569FBFE8D025C2ECE31E9D4354661C3 /* MGVideoPlayerListCell.swift */,
+				2EC8D2AC5C90B39EBC3924E0031051CC /* MGVideoPlayerListController.swift */,
+				C54CBD9FAF0B3ED8E2D2D83C8297A886 /* Pod */,
+				B006FFFBA9A703419D696A910CCD7221 /* Resources */,
+				1DCE8036187CE43598D14AC4E11DE534 /* Support Files */,
+			);
+			name = MGVideoPlayerKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8F4D1C63B44080452E2F201339C050CD /* Cosmos */ = {
+			isa = PBXGroup;
+			children = (
+				09170CF3197110572B6D0B236201D237 /* CosmosAccessibility.swift */,
+				281DAB66DA9E3282D634548DC5329E91 /* CosmosDefaultSettings.swift */,
+				EE259E751DEE17B9771BE6829E2EE707 /* CosmosLayerHelper.swift */,
+				E458D7FC1E2D6D740B52E85D130F6E64 /* CosmosLayers.swift */,
+				EE1EEF4B663E3B39881A0CC49EC3026E /* CosmosLocalizedRating.swift */,
+				9B4F74B547A76C9DF3DB4919E1FD4124 /* CosmosRating.swift */,
+				622FE24F35229ED52D08EE29F1121DC6 /* CosmosSettings.swift */,
+				054BBED22C652DAFC5483D2EB071CB2C /* CosmosSize.swift */,
+				69DB1ABF67311566A4C6ABF486302257 /* CosmosText.swift */,
+				221BA6F3471E26E8443A77FB17304977 /* CosmosTouch.swift */,
+				A82490CF920691470A304E35A0C051EF /* CosmosTouchTarget.swift */,
+				2C880638F624858453499299C24130F3 /* CosmosView.swift */,
+				CF17970191D3C3E62465FBD73D3C5623 /* RightToLeft.swift */,
+				15AA17A0267F4F653083C079FBD47E5F /* StarFillMode.swift */,
+				B93A0C5E4929315B0002C63C1B696CB4 /* StarLayer.swift */,
+				DDC127BF99114B95BA66927FD20ACC49 /* Support Files */,
+			);
+			name = Cosmos;
+			path = Cosmos;
+			sourceTree = "<group>";
+		};
+		9311EAFD6DA71145736A2E2C724D2141 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B85B43F038C0C44D5EF02FDCD9B4865 /* Pods-MGVideoPlayerKit_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B006FFFBA9A703419D696A910CCD7221 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				90A84FC618A8A67B4EB529FA68047212 /* MGVideoPlayer.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C54CBD9FAF0B3ED8E2D2D83C8297A886 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8358CE44D7E2714D6E77F3F12404DC35 /* LICENSE */,
+				AA0948081BA0B56D79D3B3FC6B0D0FAD /* MGVideoPlayerKit.podspec */,
+				0D94D33608CEE312C7710CF5BB7DDA83 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				0A078C4E859F04CE74E8C484CAE9B45D /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				0846E8A42286B1562B4DC2DAD5054252 /* Products */,
-				413200D3FFB0ED123A96A89678DD6EEF /* Targets Support Files */,
+				F39633FF84FF4AAA357E1630F5BC06FE /* Development Pods */,
+				F1D75740A1EF5BC2A47428D538658529 /* Frameworks */,
+				1EEF3410A7BAA1DA5F110A17B8CD6B19 /* Pods */,
+				E0E7AD3054A540DD45804FD94D5761E0 /* Products */,
+				9311EAFD6DA71145736A2E2C724D2141 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		DDC127BF99114B95BA66927FD20ACC49 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+				813A252DEE2B41BE6B659E6F804354A5 /* Cosmos.modulemap */,
+				8E2346BC13DB309F1C4D6C7E003B4FFE /* Cosmos.xcconfig */,
+				78896581C23D917B4A2C426A7E839732 /* Cosmos-dummy.m */,
+				4C4DD37CA5CE6E97177BAA58D9871911 /* Cosmos-Info.plist */,
+				31ED04AB60DC462A76EA7A97B402D317 /* Cosmos-prefix.pch */,
+				D64013E3E394F50AA4BA1ABDD7DD323C /* Cosmos-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Cosmos";
+			sourceTree = "<group>";
+		};
+		E0E7AD3054A540DD45804FD94D5761E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5678EB5010255E1F537ADF506B4A524 /* Cosmos.framework */,
+				B7560534F65D851C5BC803413C76C48F /* MGVideoPlayerKit.bundle */,
+				45BD82099C429648C7F3E5E5869A4C90 /* MGVideoPlayerKit.framework */,
+				B3432F93E372964260C489026A5689D6 /* Pods_MGVideoPlayerKit_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1D75740A1EF5BC2A47428D538658529 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A1C08A49741BDFBF25CE970DEC0B6AE /* Cosmos.framework */,
+				353BFE3493CA1967225C97EAA37E3C97 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F39633FF84FF4AAA357E1630F5BC06FE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A33F5562EA7194596B91B1BBDECE6E9 /* MGVideoPlayerKit */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		934678C4733D66F8A9DB60D523A209BF /* Headers */ = {
+		06B14E7EBE05BA64E2AD0E11E28CBC57 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03047652958E470C133A7C21ABA16EA5 /* MGVideoPlayerKit-umbrella.h in Headers */,
+				E795BAA7B94A55F882359B26307D6221 /* Pods-MGVideoPlayerKit_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DF4C07E68EB87872E17FD0FA2E21D00 /* Headers */ = {
+		0D9BD10F0F44B2513D0FE7B2DE8663DE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D68DA9E80B42271F317A53905170C2F /* Pods-MGVideoPlayerKit_Example-umbrella.h in Headers */,
+				F29A271D771689066DD8CF412E7F39E5 /* MGVideoPlayerKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4251D83125CFEA7FA85A7893298594F /* Headers */ = {
+		3B95E6B3C9270BEEB64825D064753E8F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06E479010559FA4FE2660B81B694C0D1 /* Pods-MGVideoPlayerKit_Tests-umbrella.h in Headers */,
+				0E8F3BED71419C7C20DD03C843CA9273 /* Cosmos-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		41C8DB76CDBB96911AC2EAC8C2C68F72 /* Pods-MGVideoPlayerKit_Tests */ = {
+		071A4A9A19DE7B6F54C5E6EE67B4543C /* MGVideoPlayerKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35CF20CE9BFA97B7C8791DC27F7B2D67 /* Build configuration list for PBXNativeTarget "Pods-MGVideoPlayerKit_Tests" */;
+			buildConfigurationList = 37F1D16879E1B2B6FEFC5CD8CE68F2DE /* Build configuration list for PBXNativeTarget "MGVideoPlayerKit" */;
 			buildPhases = (
-				B4251D83125CFEA7FA85A7893298594F /* Headers */,
-				0E66C166D6740B9DC90B44AC734B2C04 /* Sources */,
-				2BF6D6DDB911A1A1404211A0A99F7A7F /* Frameworks */,
-				8E326EC6F6BDD74A4E42217D00050D5C /* Resources */,
+				0D9BD10F0F44B2513D0FE7B2DE8663DE /* Headers */,
+				92A65F0D412958174C52C882E3849970 /* Sources */,
+				CC7CDEDFE0D058B6E139C8A3450103D7 /* Frameworks */,
+				45376DD074C32B4BDD7C98983B14E1E6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9253B2DF76B12A5389774F4FFE66FDB2 /* PBXTargetDependency */,
-			);
-			name = "Pods-MGVideoPlayerKit_Tests";
-			productName = "Pods-MGVideoPlayerKit_Tests";
-			productReference = 99C094320DD6952B61FC8932DCD65668 /* Pods_MGVideoPlayerKit_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		735D87686D95E6B0B0B9591D01BC70C3 /* Pods-MGVideoPlayerKit_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AD5FD2253C9B7A1B87CEF1A3E71ABEE7 /* Build configuration list for PBXNativeTarget "Pods-MGVideoPlayerKit_Example" */;
-			buildPhases = (
-				9DF4C07E68EB87872E17FD0FA2E21D00 /* Headers */,
-				032688D31F842A00BDB08ED149E52A3E /* Sources */,
-				128360CFD76593DBFF83FD3CCDBFC053 /* Frameworks */,
-				C97C03E6168DBEFEDCE37D7808ED999F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				62CD2E464545A734FEC4EC28E27A8D8A /* PBXTargetDependency */,
-			);
-			name = "Pods-MGVideoPlayerKit_Example";
-			productName = "Pods-MGVideoPlayerKit_Example";
-			productReference = BF62C3A5A7716ED4FA14E547924EDF0E /* Pods_MGVideoPlayerKit_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E88B3784774489AD2F18692A3DC67029 /* MGVideoPlayerKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 12E30706BD03246ED3358E44869483F0 /* Build configuration list for PBXNativeTarget "MGVideoPlayerKit" */;
-			buildPhases = (
-				934678C4733D66F8A9DB60D523A209BF /* Headers */,
-				D1262AF6EF9B0BCEC32B4275CE6F517A /* Sources */,
-				6C94A234CEC153243C2264DDAAEC38B5 /* Frameworks */,
-				5C909EF75011AE52B55F2370EA82A2E7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
+				250D90102C782558184E45B356B98D22 /* PBXTargetDependency */,
+				8F4F90A8FC7D0083F181BBE28332DC90 /* PBXTargetDependency */,
 			);
 			name = MGVideoPlayerKit;
 			productName = MGVideoPlayerKit;
-			productReference = 2954A35D53D4E99BFFEB6573D82EEE01 /* MGVideoPlayerKit.framework */;
+			productReference = 45BD82099C429648C7F3E5E5869A4C90 /* MGVideoPlayerKit.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		3EDFFE65C65528494951DC0094501494 /* Pods-MGVideoPlayerKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D64C05E85049D3BF5B87A965D3C2356E /* Build configuration list for PBXNativeTarget "Pods-MGVideoPlayerKit_Example" */;
+			buildPhases = (
+				06B14E7EBE05BA64E2AD0E11E28CBC57 /* Headers */,
+				81CF0D8EC9F3E2873104A2305D6BC1F8 /* Sources */,
+				E59D1824389292B7F158688458BE1165 /* Frameworks */,
+				3D0B6F7AD70FFB286B87BAA38722423D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A311C61AD043204058E561730C57298 /* PBXTargetDependency */,
+				FF0A11974F9C3A974BD35E78EDDB66B7 /* PBXTargetDependency */,
+			);
+			name = "Pods-MGVideoPlayerKit_Example";
+			productName = "Pods-MGVideoPlayerKit_Example";
+			productReference = B3432F93E372964260C489026A5689D6 /* Pods_MGVideoPlayerKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		64A5B0D84D8579CF3E24DF2C12D99B08 /* Cosmos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2335538F1E562E6E1544476F6CC4848 /* Build configuration list for PBXNativeTarget "Cosmos" */;
+			buildPhases = (
+				3B95E6B3C9270BEEB64825D064753E8F /* Headers */,
+				F5913B357AD32274D1D5FA2E6ED42348 /* Sources */,
+				5E27E4FF6595BD818E8BBB72E9AED50C /* Frameworks */,
+				D6F0EA1E32A54B3722C5A21F8B3EF3F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cosmos;
+			productName = Cosmos;
+			productReference = D5678EB5010255E1F537ADF506B4A524 /* Cosmos.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		70E26BFA93A969A2A2D63C86F434AD5A /* MGVideoPlayerKit-MGVideoPlayerKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2212BEF82667F041F8272B644967EFCC /* Build configuration list for PBXNativeTarget "MGVideoPlayerKit-MGVideoPlayerKit" */;
+			buildPhases = (
+				1810B4FDE3B8C60AB77EBC33DE61ABC0 /* Sources */,
+				8FD368C0428EE06FFDAB1A9F484AA4DD /* Frameworks */,
+				49426484C735CAD43F0E5F5C16F6BDA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MGVideoPlayerKit-MGVideoPlayerKit";
+			productName = "MGVideoPlayerKit-MGVideoPlayerKit";
+			productReference = B7560534F65D851C5BC803413C76C48F /* MGVideoPlayerKit.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -333,34 +454,43 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 0846E8A42286B1562B4DC2DAD5054252 /* Products */;
+			productRefGroup = E0E7AD3054A540DD45804FD94D5761E0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E88B3784774489AD2F18692A3DC67029 /* MGVideoPlayerKit */,
-				735D87686D95E6B0B0B9591D01BC70C3 /* Pods-MGVideoPlayerKit_Example */,
-				41C8DB76CDBB96911AC2EAC8C2C68F72 /* Pods-MGVideoPlayerKit_Tests */,
+				64A5B0D84D8579CF3E24DF2C12D99B08 /* Cosmos */,
+				071A4A9A19DE7B6F54C5E6EE67B4543C /* MGVideoPlayerKit */,
+				70E26BFA93A969A2A2D63C86F434AD5A /* MGVideoPlayerKit-MGVideoPlayerKit */,
+				3EDFFE65C65528494951DC0094501494 /* Pods-MGVideoPlayerKit_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5C909EF75011AE52B55F2370EA82A2E7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A96518BE223D072000523F59 /* MGVideoPlayer.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8E326EC6F6BDD74A4E42217D00050D5C /* Resources */ = {
+		3D0B6F7AD70FFB286B87BAA38722423D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C97C03E6168DBEFEDCE37D7808ED999F /* Resources */ = {
+		45376DD074C32B4BDD7C98983B14E1E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F0A522E10C3E79809FDFDF48F3DC36 /* MGVideoPlayerKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49426484C735CAD43F0E5F5C16F6BDA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850BCAA324EB47D344D381508690404C /* MGVideoPlayer.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F0EA1E32A54B3722C5A21F8B3EF3F8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -370,89 +500,94 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		032688D31F842A00BDB08ED149E52A3E /* Sources */ = {
+		1810B4FDE3B8C60AB77EBC33DE61ABC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A7832B9AC0027AA2A2F26D5F8FBE231 /* Pods-MGVideoPlayerKit_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0E66C166D6740B9DC90B44AC734B2C04 /* Sources */ = {
+		81CF0D8EC9F3E2873104A2305D6BC1F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A7FC243AD82A7D55689FA3615E26D54 /* Pods-MGVideoPlayerKit_Tests-dummy.m in Sources */,
+				C645A24304731AC9AC2FC41107A7DFE1 /* Pods-MGVideoPlayerKit_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1262AF6EF9B0BCEC32B4275CE6F517A /* Sources */ = {
+		92A65F0D412958174C52C882E3849970 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A96518BC223D05BA00523F59 /* MGVideoPlayerController.swift in Sources */,
-				A96518B8223CFEA100523F59 /* MGVideoPlayer.swift in Sources */,
-				A96518BA223D03DF00523F59 /* MGVideoPlayerData.swift in Sources */,
-				B542C8089EE3678EFC63818756F5195C /* MGVideoPlayerKit-dummy.m in Sources */,
+				E053AFDF06841D56502B8BBCA4C8BA5A /* MGVideoPlayer.swift in Sources */,
+				D0C7638C43B7EDD1CCF02F77874F2C07 /* MGVideoPlayerController.swift in Sources */,
+				5C9709E85016C3B5ACF802D8FA61A635 /* MGVideoPlayerData.swift in Sources */,
+				C8B186C99E0B468D487C8264A07B66C0 /* MGVideoPlayerKit-dummy.m in Sources */,
+				1F0BD90C87B44B00D6754E5D3E2B9690 /* MGVideoPlayerListCell.swift in Sources */,
+				8558116CDD30CA25F588781CCFB18553 /* MGVideoPlayerListController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5913B357AD32274D1D5FA2E6ED42348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ADEF4293F5FCC27830E546289F702AF /* Cosmos-dummy.m in Sources */,
+				41FF18BC9E47CAEAEB9D460C9EE3098F /* CosmosAccessibility.swift in Sources */,
+				A83D20BC1E5A7FDD224F0C5077C2A091 /* CosmosDefaultSettings.swift in Sources */,
+				699372AAC7C9E574203CCDE50A039380 /* CosmosLayerHelper.swift in Sources */,
+				019A49BDEA03B1480F00D9AA70D4A8E3 /* CosmosLayers.swift in Sources */,
+				F9D4C20CACC4256625BDBEAB4F5E992C /* CosmosLocalizedRating.swift in Sources */,
+				5B3AD699A195E003E9A322BBFAF6A6DD /* CosmosRating.swift in Sources */,
+				BFED9B4B9129D1BFA75CF02100F4E819 /* CosmosSettings.swift in Sources */,
+				2B9E82CBAC9EEF9D84F6E039DA927712 /* CosmosSize.swift in Sources */,
+				43A627725CC9E5B4120F1B2FF8ACE85C /* CosmosText.swift in Sources */,
+				D32EDABDB35D680162F24D8F7B3E9910 /* CosmosTouch.swift in Sources */,
+				D9C08DF8CDCAAFE6019B5572B1F77D63 /* CosmosTouchTarget.swift in Sources */,
+				E77D1F170F73E6100702172CE03E5B35 /* CosmosView.swift in Sources */,
+				29E1ADD749E2B64BEF3500AA1CFEA152 /* RightToLeft.swift in Sources */,
+				176ADA0186A3C569DC24913E34D23930 /* StarFillMode.swift in Sources */,
+				3ACD96FD280355998DC76D83C4041191 /* StarLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		62CD2E464545A734FEC4EC28E27A8D8A /* PBXTargetDependency */ = {
+		250D90102C782558184E45B356B98D22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cosmos;
+			target = 64A5B0D84D8579CF3E24DF2C12D99B08 /* Cosmos */;
+			targetProxy = 0405F8BECE6EDCF2600F5D201D81FB21 /* PBXContainerItemProxy */;
+		};
+		8A311C61AD043204058E561730C57298 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cosmos;
+			target = 64A5B0D84D8579CF3E24DF2C12D99B08 /* Cosmos */;
+			targetProxy = 3900F063E3BA80414A360BBF938DC352 /* PBXContainerItemProxy */;
+		};
+		8F4F90A8FC7D0083F181BBE28332DC90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MGVideoPlayerKit-MGVideoPlayerKit";
+			target = 70E26BFA93A969A2A2D63C86F434AD5A /* MGVideoPlayerKit-MGVideoPlayerKit */;
+			targetProxy = D17ACD93D338506D488F00498F90E31A /* PBXContainerItemProxy */;
+		};
+		FF0A11974F9C3A974BD35E78EDDB66B7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MGVideoPlayerKit;
-			target = E88B3784774489AD2F18692A3DC67029 /* MGVideoPlayerKit */;
-			targetProxy = F85B0986F5AD9A1BEE58A4B636A0D78F /* PBXContainerItemProxy */;
-		};
-		9253B2DF76B12A5389774F4FFE66FDB2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-MGVideoPlayerKit_Example";
-			target = 735D87686D95E6B0B0B9591D01BC70C3 /* Pods-MGVideoPlayerKit_Example */;
-			targetProxy = B828DA252BB7FB6C428FD161551407E2 /* PBXContainerItemProxy */;
+			target = 071A4A9A19DE7B6F54C5E6EE67B4543C /* MGVideoPlayerKit */;
+			targetProxy = 4FA9D9E70C9BA42C35876D3A68AC6A87 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3251707EDE6F0AC21AE39973A5F1603C /* Debug */ = {
+		300C3A266753145619682980621255E2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 25FE03BA80517364DC5F3B4F5FB1E03C /* Pods-MGVideoPlayerKit_Tests.debug.xcconfig */;
+			baseConfigurationReference = 4DECC9CD577BBB5288A0986597EAB382 /* Pods-MGVideoPlayerKit_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MGVideoPlayerKit_Tests/Pods-MGVideoPlayerKit_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MGVideoPlayerKit_Tests/Pods-MGVideoPlayerKit_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		873603969E80B588EA84ADCF12A4F94A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B753B9AEBA00EFF687C8D6A34D3D137F /* Pods-MGVideoPlayerKit_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -464,40 +599,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MGVideoPlayerKit_Example/Pods-MGVideoPlayerKit_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MGVideoPlayerKit_Example/Pods-MGVideoPlayerKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9252CD73817B3C9AC0CD45DBA796E0C8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 975FE264E4BA4815E4D4ECCBF36E7D65 /* Pods-MGVideoPlayerKit_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MGVideoPlayerKit_Example/Pods-MGVideoPlayerKit_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MGVideoPlayerKit_Example/Pods-MGVideoPlayerKit_Example.modulemap";
@@ -515,11 +617,87 @@
 			};
 			name = Release;
 		};
-		94A4ACC8495310085603C2211CD6EBA1 /* Release */ = {
+		3DE6387944806CD81748DE0E6187789A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D4A7747907CEE261218C3F2A49DCC8C /* Pods-MGVideoPlayerKit_Tests.release.xcconfig */;
+			baseConfigurationReference = 09780C019D7EDB156A3B6EAABA1F3C76 /* MGVideoPlayerKit.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MGVideoPlayerKit";
+				INFOPLIST_FILE = "Target Support Files/MGVideoPlayerKit/ResourceBundle-MGVideoPlayerKit-MGVideoPlayerKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = MGVideoPlayerKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4CE281642D6EE9FAB113046B4B6328A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		69259D184086720A34D9F3C86C413E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E2346BC13DB309F1C4D6C7E003B4FFE /* Cosmos.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -529,19 +707,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MGVideoPlayerKit_Tests/Pods-MGVideoPlayerKit_Tests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Cosmos/Cosmos-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cosmos/Cosmos-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MGVideoPlayerKit_Tests/Pods-MGVideoPlayerKit_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/Cosmos/Cosmos.modulemap";
+				PRODUCT_MODULE_NAME = Cosmos;
+				PRODUCT_NAME = Cosmos;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -549,7 +726,7 @@
 			};
 			name = Release;
 		};
-		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+		6DFA1578582149B7E24AD55CBA30F07A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -600,7 +777,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -613,10 +790,27 @@
 			};
 			name = Debug;
 		};
-		C20BE2A35CD37AA4A5392358DA50046C /* Debug */ = {
+		78A3841413A412378977CF207B41102B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14782A3F1C1DC26FD3F1694E1E39994C /* MGVideoPlayerKit.xcconfig */;
+			baseConfigurationReference = 09780C019D7EDB156A3B6EAABA1F3C76 /* MGVideoPlayerKit.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MGVideoPlayerKit";
+				INFOPLIST_FILE = "Target Support Files/MGVideoPlayerKit/ResourceBundle-MGVideoPlayerKit-MGVideoPlayerKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = MGVideoPlayerKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		93E784BAFE704DB7B4105ED1A34FF360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E2346BC13DB309F1C4D6C7E003B4FFE /* Cosmos.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -626,87 +820,30 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MGVideoPlayerKit/MGVideoPlayerKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MGVideoPlayerKit/MGVideoPlayerKit-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Cosmos/Cosmos-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cosmos/Cosmos-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MGVideoPlayerKit/MGVideoPlayerKit.modulemap";
-				PRODUCT_MODULE_NAME = MGVideoPlayerKit;
-				PRODUCT_NAME = MGVideoPlayerKit;
+				MODULEMAP_FILE = "Target Support Files/Cosmos/Cosmos.modulemap";
+				PRODUCT_MODULE_NAME = Cosmos;
+				PRODUCT_NAME = Cosmos;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+		F142CA2789BDF64731594EC591FA6365 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09780C019D7EDB156A3B6EAABA1F3C76 /* MGVideoPlayerKit.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		F80F60EFC56BA1C2E33A05325E03C3B9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14782A3F1C1DC26FD3F1694E1E39994C /* MGVideoPlayerKit.xcconfig */;
-			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -719,7 +856,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MGVideoPlayerKit/MGVideoPlayerKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MGVideoPlayerKit/MGVideoPlayerKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MGVideoPlayerKit/MGVideoPlayerKit.modulemap";
 				PRODUCT_MODULE_NAME = MGVideoPlayerKit;
@@ -727,7 +864,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -735,23 +872,91 @@
 			};
 			name = Release;
 		};
+		FA4A8017B6F000D249427D82A6A98550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09780C019D7EDB156A3B6EAABA1F3C76 /* MGVideoPlayerKit.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MGVideoPlayerKit/MGVideoPlayerKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGVideoPlayerKit/MGVideoPlayerKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGVideoPlayerKit/MGVideoPlayerKit.modulemap";
+				PRODUCT_MODULE_NAME = MGVideoPlayerKit;
+				PRODUCT_NAME = MGVideoPlayerKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF870BBD8F93D1EBCDDC15607DEA3977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6489F8AC4F5B8CC57592EC95796ADC02 /* Pods-MGVideoPlayerKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MGVideoPlayerKit_Example/Pods-MGVideoPlayerKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MGVideoPlayerKit_Example/Pods-MGVideoPlayerKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		12E30706BD03246ED3358E44869483F0 /* Build configuration list for PBXNativeTarget "MGVideoPlayerKit" */ = {
+		2212BEF82667F041F8272B644967EFCC /* Build configuration list for PBXNativeTarget "MGVideoPlayerKit-MGVideoPlayerKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C20BE2A35CD37AA4A5392358DA50046C /* Debug */,
-				F80F60EFC56BA1C2E33A05325E03C3B9 /* Release */,
+				3DE6387944806CD81748DE0E6187789A /* Debug */,
+				78A3841413A412378977CF207B41102B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35CF20CE9BFA97B7C8791DC27F7B2D67 /* Build configuration list for PBXNativeTarget "Pods-MGVideoPlayerKit_Tests" */ = {
+		37F1D16879E1B2B6FEFC5CD8CE68F2DE /* Build configuration list for PBXNativeTarget "MGVideoPlayerKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3251707EDE6F0AC21AE39973A5F1603C /* Debug */,
-				94A4ACC8495310085603C2211CD6EBA1 /* Release */,
+				FA4A8017B6F000D249427D82A6A98550 /* Debug */,
+				F142CA2789BDF64731594EC591FA6365 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -759,17 +964,26 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
-				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+				6DFA1578582149B7E24AD55CBA30F07A /* Debug */,
+				4CE281642D6EE9FAB113046B4B6328A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AD5FD2253C9B7A1B87CEF1A3E71ABEE7 /* Build configuration list for PBXNativeTarget "Pods-MGVideoPlayerKit_Example" */ = {
+		D64C05E85049D3BF5B87A965D3C2356E /* Build configuration list for PBXNativeTarget "Pods-MGVideoPlayerKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				873603969E80B588EA84ADCF12A4F94A /* Debug */,
-				9252CD73817B3C9AC0CD45DBA796E0C8 /* Release */,
+				FF870BBD8F93D1EBCDDC15607DEA3977 /* Debug */,
+				300C3A266753145619682980621255E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2335538F1E562E6E1544476F6CC4848 /* Build configuration list for PBXNativeTarget "Cosmos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93E784BAFE704DB7B4105ED1A34FF360 /* Debug */,
+				69259D184086720A34D9F3C86C413E5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

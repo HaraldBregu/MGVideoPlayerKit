@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_MGVideoPlayerKit_TestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_MGVideoPlayerKit_TestsVersionString[];
+FOUNDATION_EXPORT double CosmosVersionNumber;
+FOUNDATION_EXPORT const unsigned char CosmosVersionString[];
 
