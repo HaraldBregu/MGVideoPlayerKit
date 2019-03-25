@@ -24,40 +24,39 @@
 //
 
 import UIKit
-//import Cosmos
+import Cosmos
 
 /// :nodoc:
 class MGVideoPlayerListCell: UITableViewCell {
-//    @IBOutlet var thumbImageView: UIImageView!
-//    @IBOutlet var titleLabel: UILabel!
-//    @IBOutlet var yearCategory: UILabel!
-//    @IBOutlet var descriptionLabel: UILabel!
-//    @IBOutlet var badgeImageView: UIImageView!
-//    @IBOutlet var ratingView: CosmosView!
-//
-//    public var isFeatured:Bool = false {
-//        didSet {
-//            badgeImageView.isHidden = (isFeatured == false)
-//            badgeImageView.layer.cornerRadius = 5
-//            badgeImageView.layer.maskedCorners = [.layerMinXMinYCorner]
-//            badgeImageView.clipsToBounds = true
-//        }
-//    }
-//
-//    override func awakeFromNib() {
-//        super.awakeFromNib()
-//
-//        ratingView.settings.updateOnTouch = false
-////        ratingView.settings.textFont = MGGeneral.Font.regular(size: 12)!
-//        ratingView.settings.starSize = 15
-//        ratingView.settings.starMargin = 2
-//        thumbImageView.layer.cornerRadius = 5
-//        thumbImageView.clipsToBounds = true
-//    }
-//
-//    override func setSelected(_ selected: Bool, animated: Bool) {
-//        super.setSelected(selected, animated: animated)
-//
-//    }
-//
+    @IBOutlet var thumbImageView: UIImageView!
+    @IBOutlet var titleLabel: UILabel!
+    @IBOutlet var yearCategory: UILabel!
+    @IBOutlet var descriptionLabel: UILabel!
+    @IBOutlet var badgeImageView: UIImageView!
+    @IBOutlet var ratingView: CosmosView!
+    
+    public var isFeatured:Bool = false {
+        didSet {
+            badgeImageView.isHidden = (isFeatured == false)
+            badgeImageView.layer.cornerRadius = 5
+            badgeImageView.layer.maskedCorners = [.layerMinXMinYCorner]
+            badgeImageView.clipsToBounds = true
+        }
+    }
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        
+        ratingView.settings.updateOnTouch = false
+//        ratingView.settings.textFont = MGGeneral.Font.regular(size: 12)!
+        ratingView.settings.starSize = 15
+        ratingView.settings.starMargin = 2
+        thumbImageView.layer.cornerRadius = 5
+        thumbImageView.clipsToBounds = true
+    }
+    
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+        
+    }
 }

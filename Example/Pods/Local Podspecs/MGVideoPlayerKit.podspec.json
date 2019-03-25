@@ -28,6 +28,9 @@
   "dependencies": {
     "Cosmos": [
       "~> 18.0"
+    ],
+    "SDWebImage": [
+
     ]
   }
 }

@@ -4,4 +4,5 @@ use_frameworks!
 target 'MGVideoPlayerKit_Example' do
   pod 'MGVideoPlayerKit', :path => '../'
   pod 'Cosmos', '~> 18.0'
+  pod 'SDWebImage'
 end

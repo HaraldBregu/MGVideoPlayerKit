@@ -31,14 +31,27 @@ public class MGVideoPlayerData {
     public var pubYear:String!
     public var category:String!
     public var url: URL!
-    public var thumbURL: URL!
+    public var thumbUrl: URL!
     public var starCount:Double!
     public var reviewCount:Int!
-    //public var actors:[Cast]!
+    public var actors:[MGVideoPlayerActorData]!
     public var isFeatured:Bool = false
 
     public init() {
         
     }
     
+}
+
+public class MGVideoPlayerActorData {
+    public var name:String!
+    public var roleName:String!
+    public var pictureUrl:String!
+    
+    public init(name:String, roleName:String, pictureUrl:String) {
+        self.name = name
+        self.roleName = roleName
+        self.pictureUrl = pictureUrl
+    }
+
 }

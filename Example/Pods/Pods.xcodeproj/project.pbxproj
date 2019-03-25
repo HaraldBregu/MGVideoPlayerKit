@@ -7,128 +7,285 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		019A49BDEA03B1480F00D9AA70D4A8E3 /* CosmosLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E458D7FC1E2D6D740B52E85D130F6E64 /* CosmosLayers.swift */; };
-		01B3225A1C8D943DC0DC55ACBCBC842C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77D37F1FEDCB633E61B3254D3F67269 /* Foundation.framework */; };
-		0E8F3BED71419C7C20DD03C843CA9273 /* Cosmos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D64013E3E394F50AA4BA1ABDD7DD323C /* Cosmos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		176ADA0186A3C569DC24913E34D23930 /* StarFillMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AA17A0267F4F653083C079FBD47E5F /* StarFillMode.swift */; };
-		18F0A522E10C3E79809FDFDF48F3DC36 /* MGVideoPlayerKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B7560534F65D851C5BC803413C76C48F /* MGVideoPlayerKit.bundle */; };
-		1F0BD90C87B44B00D6754E5D3E2B9690 /* MGVideoPlayerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3569FBFE8D025C2ECE31E9D4354661C3 /* MGVideoPlayerListCell.swift */; };
-		29E1ADD749E2B64BEF3500AA1CFEA152 /* RightToLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF17970191D3C3E62465FBD73D3C5623 /* RightToLeft.swift */; };
-		2B9E82CBAC9EEF9D84F6E039DA927712 /* CosmosSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054BBED22C652DAFC5483D2EB071CB2C /* CosmosSize.swift */; };
-		3ACD96FD280355998DC76D83C4041191 /* StarLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93A0C5E4929315B0002C63C1B696CB4 /* StarLayer.swift */; };
-		41FF18BC9E47CAEAEB9D460C9EE3098F /* CosmosAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09170CF3197110572B6D0B236201D237 /* CosmosAccessibility.swift */; };
-		43A627725CC9E5B4120F1B2FF8ACE85C /* CosmosText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DB1ABF67311566A4C6ABF486302257 /* CosmosText.swift */; };
-		5B3AD699A195E003E9A322BBFAF6A6DD /* CosmosRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4F74B547A76C9DF3DB4919E1FD4124 /* CosmosRating.swift */; };
-		5C9709E85016C3B5ACF802D8FA61A635 /* MGVideoPlayerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C195DE4607CF413317F9ACB2736A9A /* MGVideoPlayerData.swift */; };
-		699372AAC7C9E574203CCDE50A039380 /* CosmosLayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE259E751DEE17B9771BE6829E2EE707 /* CosmosLayerHelper.swift */; };
-		7C43F88ED33B5795C880FD61FEDE9E65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77D37F1FEDCB633E61B3254D3F67269 /* Foundation.framework */; };
-		850BCAA324EB47D344D381508690404C /* MGVideoPlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90A84FC618A8A67B4EB529FA68047212 /* MGVideoPlayer.storyboard */; };
-		8558116CDD30CA25F588781CCFB18553 /* MGVideoPlayerListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC8D2AC5C90B39EBC3924E0031051CC /* MGVideoPlayerListController.swift */; };
-		8ADEF4293F5FCC27830E546289F702AF /* Cosmos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78896581C23D917B4A2C426A7E839732 /* Cosmos-dummy.m */; };
-		A83D20BC1E5A7FDD224F0C5077C2A091 /* CosmosDefaultSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281DAB66DA9E3282D634548DC5329E91 /* CosmosDefaultSettings.swift */; };
-		B04A118D571CCB8BA2BB70F8FA8688DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77D37F1FEDCB633E61B3254D3F67269 /* Foundation.framework */; };
-		BFED9B4B9129D1BFA75CF02100F4E819 /* CosmosSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622FE24F35229ED52D08EE29F1121DC6 /* CosmosSettings.swift */; };
-		C645A24304731AC9AC2FC41107A7DFE1 /* Pods-MGVideoPlayerKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0945DF3C78000E1A91813FCAB6B95B6 /* Pods-MGVideoPlayerKit_Example-dummy.m */; };
-		C8B186C99E0B468D487C8264A07B66C0 /* MGVideoPlayerKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 822E61779DFEF7DBAEE25D3698CB788A /* MGVideoPlayerKit-dummy.m */; };
-		D0C7638C43B7EDD1CCF02F77874F2C07 /* MGVideoPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549882CD30A3382E6AC58B3684399961 /* MGVideoPlayerController.swift */; };
-		D32EDABDB35D680162F24D8F7B3E9910 /* CosmosTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221BA6F3471E26E8443A77FB17304977 /* CosmosTouch.swift */; };
-		D9C08DF8CDCAAFE6019B5572B1F77D63 /* CosmosTouchTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82490CF920691470A304E35A0C051EF /* CosmosTouchTarget.swift */; };
-		E053AFDF06841D56502B8BBCA4C8BA5A /* MGVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840242682F90B39CBFF4960DAE34D0E2 /* MGVideoPlayer.swift */; };
-		E77D1F170F73E6100702172CE03E5B35 /* CosmosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C880638F624858453499299C24130F3 /* CosmosView.swift */; };
-		E795BAA7B94A55F882359B26307D6221 /* Pods-MGVideoPlayerKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 586DBA31C146A1EB6B10F3CBC4878182 /* Pods-MGVideoPlayerKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F29A271D771689066DD8CF412E7F39E5 /* MGVideoPlayerKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD1268E75DE97CE5DC3F179DD758D6B /* MGVideoPlayerKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F94896D5C0E04394659593CFB22A8E22 /* Cosmos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1C08A49741BDFBF25CE970DEC0B6AE /* Cosmos.framework */; };
-		F9D4C20CACC4256625BDBEAB4F5E992C /* CosmosLocalizedRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1EEF4B663E3B39881A0CC49EC3026E /* CosmosLocalizedRating.swift */; };
+		019A49BDEA03B1480F00D9AA70D4A8E3 /* CosmosLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88641662213BBECBFB8A5521223C0C5 /* CosmosLayers.swift */; };
+		02B15B46BBC1100AD6F52759D4137BDA /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D4BE78D9E0E326895CA9B69EA53B7F11 /* UIButton+WebCache.m */; };
+		0907140DC11E2B962D86D7FEF6DDF2AC /* UIImage+MemoryCacheCost.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9FC973FE0CD915CF8F34248C9385B2 /* UIImage+MemoryCacheCost.m */; };
+		09E05A416C0FC7BA6A7E2613944FD03B /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 681E5788F9069E540F1AD1C69D5F0DD0 /* SDWebImagePrefetcher.m */; };
+		0E8F3BED71419C7C20DD03C843CA9273 /* Cosmos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C74F8AFDF1ADDA5C8474FEF585796726 /* Cosmos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11AE239535649D4EDD3FC0E6F868EB2D /* SDWebImageTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = E476AB2526B1E59644A831408AB85FE0 /* SDWebImageTransition.m */; };
+		171277BFAD8FD6F79D2ADDD6D4C5943D /* SDWebImageCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = A6F1AAC4AA0279BAF09205508ABF1999 /* SDWebImageCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		176ADA0186A3C569DC24913E34D23930 /* StarFillMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C7446974D17D02F1D09ACBF08675C /* StarFillMode.swift */; };
+		18E4E5A1DE5B0D24CC24E151D31DE6EC /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374A94B3E57FF9C3F87FA22B67B3EF5D /* SDWebImage.framework */; };
+		19AD956807D92D3CB2837261176CBB25 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E40DA538586380B9C2ED13375251D9 /* UIImage+MultiFormat.m */; };
+		19C98CDFE0191CBEFBCF1A4A8A57BFB0 /* SDImageCacheConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E9BB88E97E40C01F65528B7B0FD51DC /* SDImageCacheConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1ADC431A953E357FD61950CB332657FA /* MGVideoPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549882CD30A3382E6AC58B3684399961 /* MGVideoPlayerController.swift */; };
+		1BD59FE3FEA44F3026D04A4AD838111A /* SDWebImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9303F7463FE812F9F9B907987FC5D5B5 /* SDWebImageCoder.m */; };
+		20A32235C428BE6651224D560B750853 /* UIImage+ForceDecode.h in Headers */ = {isa = PBXBuildFile; fileRef = 42DF58DCEF37114948ECC21C1F70693A /* UIImage+ForceDecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		210878959C7E8F7816F4C75D0EE8474E /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A283590D3AE79163FD4BA5825025CE /* SDWebImageDownloaderOperation.m */; };
+		23030BE1543C83FD95A63D91900D096C /* SDWebImageGIFCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C9B41BA4AA896B2E2F794691332AC9 /* SDWebImageGIFCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24DFAA93B0555B9EF5C6EFE4853803B1 /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = A6FBF7513D79C98779C637D3A98C37CD /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27E6D3073D2A137A6E82E0971E542DFB /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA9B313DF3C1F0FE756840C31832588 /* SDWebImageCompat.m */; };
+		29E1ADD749E2B64BEF3500AA1CFEA152 /* RightToLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3C4CA3E62A9333055D4B6CE70E6A58 /* RightToLeft.swift */; };
+		2A4CF5F96A5E2A629764718187B2D2CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FF8DDA9DB1E2620570432E898784A3 /* Foundation.framework */; };
+		2ACD1E8A2BFF8241C9FE3C2881B4FB5B /* NSButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FAF18BE0514D6D175D355A74D08ED78 /* NSButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B9E82CBAC9EEF9D84F6E039DA927712 /* CosmosSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6093B106F235E5064CB3A7F728D4E499 /* CosmosSize.swift */; };
+		2C59F982DDD946FB8FCF22BB8E84A695 /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B883DC3985F61BC2A7A8082816F487F /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39195C5863CE2841F60FAE2CB38422DB /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B8F12E5EC83AC87E54359669772AC4 /* SDWebImageManager.m */; };
+		3ACD96FD280355998DC76D83C4041191 /* StarLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B560BD68B993D7409D5F0E01A9034F9A /* StarLayer.swift */; };
+		3B9817ED34488218F7E0AA0CD372AF48 /* SDImageCacheConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EBB1E58B5187CD058CF866D911F341 /* SDImageCacheConfig.m */; };
+		3F43513EAEF1AF01271C3C22A5D1C9A2 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 635B706AAE4926888FDE35972964168B /* SDImageCache.m */; };
+		41FF18BC9E47CAEAEB9D460C9EE3098F /* CosmosAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840F4F7DAB45196D545AA0A0AB21375A /* CosmosAccessibility.swift */; };
+		43A627725CC9E5B4120F1B2FF8ACE85C /* CosmosText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0692F809E0801E7D7B6F431D8C04CF23 /* CosmosText.swift */; };
+		4AE7E17BF17A239259E1A59FB06A343F /* MGVideoPlayerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3569FBFE8D025C2ECE31E9D4354661C3 /* MGVideoPlayerListCell.swift */; };
+		4E4E30AFF1214735274D392B36531621 /* MGVideoPlayerListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC8D2AC5C90B39EBC3924E0031051CC /* MGVideoPlayerListController.swift */; };
+		50C1A62380F833ED04318A951E867818 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 725BB3561B2CC1C44D572A8D3EACBB93 /* UIImageView+HighlightedWebCache.m */; };
+		50F8C23EECB2B285B183E633348B6099 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D4966EB202EA6F11EEE055571B8F1A20 /* SDWebImageDownloader.m */; };
+		5310D6731D3C98BBA80AD7ED68D2EC96 /* SDWebImageTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 16059F5F6ACFA6476A27C9E9E432899F /* SDWebImageTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5449808E26220A1CAA850DC937D16ABA /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 168B34A0BFF2B4C3858DF690F0F24143 /* SDWebImageDownloaderOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B02E0991B68366442DF8BCC7AE1925 /* UIView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E0ED775B38BE60DD0E965528DC0A3F8D /* UIView+WebCache.m */; };
+		58A3BFF9DB03114464082DFC4982DB64 /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C65D8D287FEABC9901BC5D76C907C9D /* UIImage+MultiFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58F713595A8396B016BE0A9626F86055 /* SDAnimatedImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = DACF6DBBCC3D71B7D66A00D3293C8755 /* SDAnimatedImageRep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59F6D9F61C624478B9E9F7C649F97167 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EE3883D7F557231351A827A0BC07D5 /* NSData+ImageContentType.m */; };
+		5B3AD699A195E003E9A322BBFAF6A6DD /* CosmosRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF270B11AA8E2CE4ED388FC48E0149CD /* CosmosRating.swift */; };
+		5BD062F93CC54D951F3A63C1B8BE7F04 /* MGVideoPlayerKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD1268E75DE97CE5DC3F179DD758D6B /* MGVideoPlayerKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CEDCF0FE7BCB9DAEAB35827665E77B0 /* SDWebImageImageIOCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = F34989E32082A2B84369B188D1265DC9 /* SDWebImageImageIOCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F096081DE59D4A8A0CBAD53A4B4F327 /* Pods-MGVideoPlayerKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 586DBA31C146A1EB6B10F3CBC4878182 /* Pods-MGVideoPlayerKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60E0810989041A137DC97781A6F531D0 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF8C1F6A673FADC334D0538FB9E3062 /* UIImageView+WebCache.m */; };
+		64381D57B0038090B38E7CD98FCE4FD0 /* MGVideoPlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90A84FC618A8A67B4EB529FA68047212 /* MGVideoPlayer.storyboard */; };
+		65BD36A53DE3C4238F12AF7E1341B65B /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 536C907C3299B00AFD03B7F5E05E4BC7 /* SDWebImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67E59C05EFF04FE12202DB9565E767C0 /* MGVideoPlayerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C195DE4607CF413317F9ACB2736A9A /* MGVideoPlayerData.swift */; };
+		699372AAC7C9E574203CCDE50A039380 /* CosmosLayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B424B27728FFB710FBE20D1BE03923C /* CosmosLayerHelper.swift */; };
+		6BDD0CC819D8BE116BB06E47BD5464D1 /* SDWebImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD19B9B4D2032971AA74939FAFBFA6C7 /* SDWebImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C096FE72D0292223307E3C9142560A6 /* UIImage+MemoryCacheCost.h in Headers */ = {isa = PBXBuildFile; fileRef = 457FBDCE2065661538FB70C83B48D9A2 /* UIImage+MemoryCacheCost.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F111845C070BA2AC71BA50B71E849B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FF8DDA9DB1E2620570432E898784A3 /* Foundation.framework */; };
+		782E9E11283F96CD5DB1D8C5CE03D469 /* NSImage+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E6D9331173D938C24A874576080DBA /* NSImage+WebCache.m */; };
+		7A51ECE72D1FDC37007D1008E7F69E15 /* SDWebImageFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 59CF59B3BA13A3CD0CEDD358775DFC4A /* SDWebImageFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C43F88ED33B5795C880FD61FEDE9E65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FF8DDA9DB1E2620570432E898784A3 /* Foundation.framework */; };
+		82328F5BEFF134A7F06B04FB6C92F4C0 /* SDWebImageCoderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 645186B91ABAEC87AACD3D5CB873626F /* SDWebImageCoderHelper.m */; };
+		82C80FEAABD8E91397121FFF764E2518 /* MGVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840242682F90B39CBFF4960DAE34D0E2 /* MGVideoPlayer.swift */; };
+		85F2CBB741B2B4FB60687289DE794D99 /* SDWebImageCodersManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A8719A09BF4B4594F1BCE67E32E15E82 /* SDWebImageCodersManager.m */; };
+		8ADEF4293F5FCC27830E546289F702AF /* Cosmos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AE7F9B088B9A0CFCF0B999B6C61E35 /* Cosmos-dummy.m */; };
+		8FFB7F962C7286A25C0831D43FA87798 /* SDWebImageImageIOCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C80E3DBF4E50D3B38FB7C8503BE1C3E2 /* SDWebImageImageIOCoder.m */; };
+		90A6808DCB8B6771585EE855ADACF659 /* Pods-MGVideoPlayerKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0945DF3C78000E1A91813FCAB6B95B6 /* Pods-MGVideoPlayerKit_Example-dummy.m */; };
+		90E9FC9A84BB57C3E0A4E735E1DE4E0D /* MGVideoPlayerKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A3F6A5D3D63A3F28EF70FF570577BB5 /* MGVideoPlayerKit.bundle */; };
+		910514A34261ED44B69863C2899CFACB /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 35ECAB03F7D1B6D5A3A97AD97D2539C1 /* SDWebImageCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		964067C97C21451470EF76E7E1346455 /* MGVideoPlayerKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 822E61779DFEF7DBAEE25D3698CB788A /* MGVideoPlayerKit-dummy.m */; };
+		9BF8D0C7F812425BB271DFA8CD252623 /* UIView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D35CC4AE14D452FDA1446BCD83E30BD4 /* UIView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C7CDC3175CF227EA0C21AA9D3402BAE /* SDWebImageCoderHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CEF164B4162B12EF7EE6515C97731F23 /* SDWebImageCoderHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1099812CC2110C39027F6BF82095B43 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EED4F6AB02188444B699C55DA50BF15 /* ImageIO.framework */; };
+		A83D20BC1E5A7FDD224F0C5077C2A091 /* CosmosDefaultSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEC02B0AEE82D55E1488DDF082259D5 /* CosmosDefaultSettings.swift */; };
+		AF1995EA4308310CDB5C5C42A7B1E958 /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = BD22EDADFD0A6B26D281BBC8BC952AEA /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0825F888BD5D8469AED3902B03FAB0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FF8DDA9DB1E2620570432E898784A3 /* Foundation.framework */; };
+		B1CAF52695310600E70E70793743F55B /* SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C915CC9FFE9F693971A4C4366EBA01 /* SDWebImage-dummy.m */; };
+		B66D31C490299DF0FA67494F182056A2 /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C4F93A1AFF1543D5141DE5F597F9FB3 /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFED9B4B9129D1BFA75CF02100F4E819 /* CosmosSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7D214622946BCA997944077E29574A /* CosmosSettings.swift */; };
+		C690BD7DA12838D2009CA78710A34639 /* NSButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C54716185EFF1CE701FDD634DC8CEB96 /* NSButton+WebCache.m */; };
+		C9606E0DF6B7E67F91B10335674D0DA6 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD5FDFD2071B02177153A43808B5AD9 /* UIView+WebCacheOperation.m */; };
+		CDF651825C4506FE315FDE6CB203854C /* SDAnimatedImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F757DA9862F4269D8A0E5CCDA3515A /* SDAnimatedImageRep.m */; };
+		CEDE870D655CADCB6DA824DCCE0C3E84 /* SDWebImageCodersManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E46857162F5CE2F4794C36F874BE11B6 /* SDWebImageCodersManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D32EDABDB35D680162F24D8F7B3E9910 /* CosmosTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E0509CFBD5ED6804F3C9BB3422D873 /* CosmosTouch.swift */; };
+		D61862084D1CA943AD6213CE07E7FE70 /* UIImage+ForceDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B58CF67F0B5CF86C5B92BC11B3DF75 /* UIImage+ForceDecode.m */; };
+		D6DC8C651C485815F12C0DD9BD732522 /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFC9EA1B556932F6203E5E4D67D34C6 /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9C08DF8CDCAAFE6019B5572B1F77D63 /* CosmosTouchTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AC1FFC4C7CFD9B3A64D64CD3CC88A9 /* CosmosTouchTarget.swift */; };
+		DB0395A72E205FCEEA36BE95EB58A9DD /* SDWebImageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB87570060B2C8C7FAC1ABA6186D87B /* SDWebImageFrame.m */; };
+		DB6911B320EA88D03D81A7F57C4EC365 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 7482CFDCFA9F7E09B6655476188BA36B /* UIImage+GIF.m */; };
+		DC3069158ACBFEAE258E21E1DEE08E16 /* NSImage+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 248EF450A3E943579F3107B599CF4F61 /* NSImage+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC6547609158BE851C5ED6B0218C2DB1 /* Cosmos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD6EA692E323753988D96921B7C9928 /* Cosmos.framework */; };
+		E0BBB5F637DA2BB28199C81728D64D76 /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E951594B02B22B43F061F15B717738D /* UIImage+GIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5A027841A2B6E0D259B0D622A8A78DA /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A606022242C6D45BEF5BCE49BBF11713 /* SDWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E77D1F170F73E6100702172CE03E5B35 /* CosmosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FFF20D82A3856FCBF6770E86AA6890 /* CosmosView.swift */; };
+		E78EC7A38660C337AF6043F6E7366C82 /* SDWebImageGIFCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9F7DC45EEEE209833DC9612FF8FE8A /* SDWebImageGIFCoder.m */; };
+		E8DDA599639E8D7D453029D9201ACC4C /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = C1C133152D240D0196C4C86A70FB2C50 /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9D4C20CACC4256625BDBEAB4F5E992C /* CosmosLocalizedRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17FE95CBB1ED80B5EE4F0222200746 /* CosmosLocalizedRating.swift */; };
+		FB45679D58D1722435BDAF5061F8B2D5 /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = D322C10A12C7B71E045C87DF1115E11F /* UIView+WebCacheOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD42EDF03E1622714B266A84BD1A0118 /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 038E76821F42D140586B46595C770E79 /* SDWebImagePrefetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0405F8BECE6EDCF2600F5D201D81FB21 /* PBXContainerItemProxy */ = {
+		48F6F8C3B89448D2F02328C55EA24473 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 64A5B0D84D8579CF3E24DF2C12D99B08;
-			remoteInfo = Cosmos;
-		};
-		3900F063E3BA80414A360BBF938DC352 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 64A5B0D84D8579CF3E24DF2C12D99B08;
-			remoteInfo = Cosmos;
-		};
-		4FA9D9E70C9BA42C35876D3A68AC6A87 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 071A4A9A19DE7B6F54C5E6EE67B4543C;
+			remoteGlobalIDString = F804247AA5536031960CD5D07E5FA8F6;
 			remoteInfo = MGVideoPlayerKit;
 		};
-		D17ACD93D338506D488F00498F90E31A /* PBXContainerItemProxy */ = {
+		548E112AD236B41A45A3D9A4C54FF7CE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 70E26BFA93A969A2A2D63C86F434AD5A;
+			remoteGlobalIDString = 64A5B0D84D8579CF3E24DF2C12D99B08;
+			remoteInfo = Cosmos;
+		};
+		6191488BDC8190E9BCD5056514AAC1CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64A5B0D84D8579CF3E24DF2C12D99B08;
+			remoteInfo = Cosmos;
+		};
+		C16795F268997942B578EB51E2A13220 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D29750D5320FB4D0B3333C2B5B9C9859;
 			remoteInfo = "MGVideoPlayerKit-MGVideoPlayerKit";
+		};
+		E51C15E62E6C78C32AFBFD93873994C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98F899D0BB5DEB29A92CBD87818ACA9A;
+			remoteInfo = SDWebImage;
+		};
+		E8BA292C9DEEEBDC35E410A71600DA01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98F899D0BB5DEB29A92CBD87818ACA9A;
+			remoteInfo = SDWebImage;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		054BBED22C652DAFC5483D2EB071CB2C /* CosmosSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosSize.swift; path = Cosmos/CosmosSize.swift; sourceTree = "<group>"; };
-		09170CF3197110572B6D0B236201D237 /* CosmosAccessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosAccessibility.swift; path = Cosmos/CosmosAccessibility.swift; sourceTree = "<group>"; };
+		038E76821F42D140586B46595C770E79 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		0692F809E0801E7D7B6F431D8C04CF23 /* CosmosText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosText.swift; path = Cosmos/CosmosText.swift; sourceTree = "<group>"; };
 		09780C019D7EDB156A3B6EAABA1F3C76 /* MGVideoPlayerKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGVideoPlayerKit.xcconfig; sourceTree = "<group>"; };
-		0A1C08A49741BDFBF25CE970DEC0B6AE /* Cosmos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cosmos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B424B27728FFB710FBE20D1BE03923C /* CosmosLayerHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLayerHelper.swift; path = Cosmos/CosmosLayerHelper.swift; sourceTree = "<group>"; };
+		0B7D214622946BCA997944077E29574A /* CosmosSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosSettings.swift; path = Cosmos/CosmosSettings.swift; sourceTree = "<group>"; };
+		0CD2E7FDB7F5CB1682B071EA683BB832 /* Pods_MGVideoPlayerKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MGVideoPlayerKit_Example.framework; path = "Pods-MGVideoPlayerKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D94D33608CEE312C7710CF5BB7DDA83 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		15AA17A0267F4F653083C079FBD47E5F /* StarFillMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarFillMode.swift; path = Cosmos/StarFillMode.swift; sourceTree = "<group>"; };
+		13A6791B848FF9A2BAB11BB43F87749A /* SDWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDWebImage.modulemap; sourceTree = "<group>"; };
+		16059F5F6ACFA6476A27C9E9E432899F /* SDWebImageTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageTransition.h; path = SDWebImage/SDWebImageTransition.h; sourceTree = "<group>"; };
+		168B34A0BFF2B4C3858DF690F0F24143 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		1B883DC3985F61BC2A7A8082816F487F /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/SDWebImageManager.h; sourceTree = "<group>"; };
+		1C65D8D287FEABC9901BC5D76C907C9D /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		1C7F108DE07DB9B2C8EB20E28C2DA490 /* MGVideoPlayerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MGVideoPlayerKit.framework; path = MGVideoPlayerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C9FC973FE0CD915CF8F34248C9385B2 /* UIImage+MemoryCacheCost.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MemoryCacheCost.m"; path = "SDWebImage/UIImage+MemoryCacheCost.m"; sourceTree = "<group>"; };
+		1EEC02B0AEE82D55E1488DDF082259D5 /* CosmosDefaultSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosDefaultSettings.swift; path = Cosmos/CosmosDefaultSettings.swift; sourceTree = "<group>"; };
 		1F5A4DB5C4C470E870E1E675E8EF6BD1 /* Pods-MGVideoPlayerKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGVideoPlayerKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		221BA6F3471E26E8443A77FB17304977 /* CosmosTouch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouch.swift; path = Cosmos/CosmosTouch.swift; sourceTree = "<group>"; };
+		1FA2B068A81BB4CC01B564E42B8333D3 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImage.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		240D9FED98614F915BB98A74CADDF6BC /* Pods-MGVideoPlayerKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGVideoPlayerKit_Example-Info.plist"; sourceTree = "<group>"; };
-		281DAB66DA9E3282D634548DC5329E91 /* CosmosDefaultSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosDefaultSettings.swift; path = Cosmos/CosmosDefaultSettings.swift; sourceTree = "<group>"; };
+		248EF450A3E943579F3107B599CF4F61 /* NSImage+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSImage+WebCache.h"; path = "SDWebImage/NSImage+WebCache.h"; sourceTree = "<group>"; };
+		25EBB1E58B5187CD058CF866D911F341 /* SDImageCacheConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheConfig.m; path = SDWebImage/SDImageCacheConfig.m; sourceTree = "<group>"; };
 		281DDCA24FF9817AC7F89ED3B920B7F8 /* MGVideoPlayerKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGVideoPlayerKit-prefix.pch"; sourceTree = "<group>"; };
-		2C880638F624858453499299C24130F3 /* CosmosView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosView.swift; path = Cosmos/CosmosView.swift; sourceTree = "<group>"; };
+		2AA9B313DF3C1F0FE756840C31832588 /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
+		2C4F93A1AFF1543D5141DE5F597F9FB3 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		2CD6EA692E323753988D96921B7C9928 /* Cosmos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cosmos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EC8D2AC5C90B39EBC3924E0031051CC /* MGVideoPlayerListController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MGVideoPlayerListController.swift; path = MGVideoPlayerKit/Classes/MGVideoPlayerListController.swift; sourceTree = "<group>"; };
-		31ED04AB60DC462A76EA7A97B402D317 /* Cosmos-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cosmos-prefix.pch"; sourceTree = "<group>"; };
+		2F23533F83EC7434C13D2A5528C33037 /* Cosmos-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Cosmos-Info.plist"; sourceTree = "<group>"; };
 		3569FBFE8D025C2ECE31E9D4354661C3 /* MGVideoPlayerListCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MGVideoPlayerListCell.swift; path = MGVideoPlayerKit/Classes/MGVideoPlayerListCell.swift; sourceTree = "<group>"; };
+		35ECAB03F7D1B6D5A3A97AD97D2539C1 /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
+		374A94B3E57FF9C3F87FA22B67B3EF5D /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39EE3883D7F557231351A827A0BC07D5 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		3AF3BF5DE644CF151BA4A886A7224273 /* Cosmos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cosmos.framework; path = Cosmos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DCFC4CA7DCE096B197B486D7F799C6B /* MGVideoPlayerKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MGVideoPlayerKit-Info.plist"; sourceTree = "<group>"; };
-		45BD82099C429648C7F3E5E5869A4C90 /* MGVideoPlayerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MGVideoPlayerKit.framework; path = MGVideoPlayerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C4DD37CA5CE6E97177BAA58D9871911 /* Cosmos-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Cosmos-Info.plist"; sourceTree = "<group>"; };
+		42DF58DCEF37114948ECC21C1F70693A /* UIImage+ForceDecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ForceDecode.h"; path = "SDWebImage/UIImage+ForceDecode.h"; sourceTree = "<group>"; };
+		457FBDCE2065661538FB70C83B48D9A2 /* UIImage+MemoryCacheCost.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MemoryCacheCost.h"; path = "SDWebImage/UIImage+MemoryCacheCost.h"; sourceTree = "<group>"; };
+		47B58CF67F0B5CF86C5B92BC11B3DF75 /* UIImage+ForceDecode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ForceDecode.m"; path = "SDWebImage/UIImage+ForceDecode.m"; sourceTree = "<group>"; };
 		4DECC9CD577BBB5288A0986597EAB382 /* Pods-MGVideoPlayerKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGVideoPlayerKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4E9BB88E97E40C01F65528B7B0FD51DC /* SDImageCacheConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCacheConfig.h; path = SDWebImage/SDImageCacheConfig.h; sourceTree = "<group>"; };
+		4EED4F6AB02188444B699C55DA50BF15 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		536C907C3299B00AFD03B7F5E05E4BC7 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
 		549882CD30A3382E6AC58B3684399961 /* MGVideoPlayerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MGVideoPlayerController.swift; path = MGVideoPlayerKit/Classes/MGVideoPlayerController.swift; sourceTree = "<group>"; };
+		573C7446974D17D02F1D09ACBF08675C /* StarFillMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarFillMode.swift; path = Cosmos/StarFillMode.swift; sourceTree = "<group>"; };
 		586DBA31C146A1EB6B10F3CBC4878182 /* Pods-MGVideoPlayerKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MGVideoPlayerKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		622FE24F35229ED52D08EE29F1121DC6 /* CosmosSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosSettings.swift; path = Cosmos/CosmosSettings.swift; sourceTree = "<group>"; };
+		59CF59B3BA13A3CD0CEDD358775DFC4A /* SDWebImageFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageFrame.h; path = SDWebImage/SDWebImageFrame.h; sourceTree = "<group>"; };
+		6093B106F235E5064CB3A7F728D4E499 /* CosmosSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosSize.swift; path = Cosmos/CosmosSize.swift; sourceTree = "<group>"; };
+		635B706AAE4926888FDE35972964168B /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
+		645186B91ABAEC87AACD3D5CB873626F /* SDWebImageCoderHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCoderHelper.m; path = SDWebImage/SDWebImageCoderHelper.m; sourceTree = "<group>"; };
 		6489F8AC4F5B8CC57592EC95796ADC02 /* Pods-MGVideoPlayerKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGVideoPlayerKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		69DB1ABF67311566A4C6ABF486302257 /* CosmosText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosText.swift; path = Cosmos/CosmosText.swift; sourceTree = "<group>"; };
+		681E5788F9069E540F1AD1C69D5F0DD0 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		6E0008BCADA36AF5A9DA5281D4C1B8BC /* SDWebImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SDWebImage-Info.plist"; sourceTree = "<group>"; };
+		6FAF18BE0514D6D175D355A74D08ED78 /* NSButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSButton+WebCache.h"; path = "SDWebImage/NSButton+WebCache.h"; sourceTree = "<group>"; };
+		725BB3561B2CC1C44D572A8D3EACBB93 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		72C915CC9FFE9F693971A4C4366EBA01 /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
+		7482CFDCFA9F7E09B6655476188BA36B /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
 		7639CDD51CF428CCE2A253249A87233D /* Pods-MGVideoPlayerKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGVideoPlayerKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		78896581C23D917B4A2C426A7E839732 /* Cosmos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cosmos-dummy.m"; sourceTree = "<group>"; };
-		813A252DEE2B41BE6B659E6F804354A5 /* Cosmos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Cosmos.modulemap; sourceTree = "<group>"; };
+		76F757DA9862F4269D8A0E5CCDA3515A /* SDAnimatedImageRep.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImageRep.m; path = SDWebImage/SDAnimatedImageRep.m; sourceTree = "<group>"; };
 		822E61779DFEF7DBAEE25D3698CB788A /* MGVideoPlayerKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGVideoPlayerKit-dummy.m"; sourceTree = "<group>"; };
 		8358CE44D7E2714D6E77F3F12404DC35 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		840242682F90B39CBFF4960DAE34D0E2 /* MGVideoPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MGVideoPlayer.swift; path = MGVideoPlayerKit/Classes/MGVideoPlayer.swift; sourceTree = "<group>"; };
+		840F4F7DAB45196D545AA0A0AB21375A /* CosmosAccessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosAccessibility.swift; path = Cosmos/CosmosAccessibility.swift; sourceTree = "<group>"; };
 		884E931A2DC63405412E5FD536651C64 /* Pods-MGVideoPlayerKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MGVideoPlayerKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8E2346BC13DB309F1C4D6C7E003B4FFE /* Cosmos.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cosmos.xcconfig; sourceTree = "<group>"; };
+		8D3C4CA3E62A9333055D4B6CE70E6A58 /* RightToLeft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RightToLeft.swift; path = Cosmos/Helpers/RightToLeft.swift; sourceTree = "<group>"; };
+		8DF8C1F6A673FADC334D0538FB9E3062 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		8E951594B02B22B43F061F15B717738D /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
 		90A84FC618A8A67B4EB529FA68047212 /* MGVideoPlayer.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = MGVideoPlayer.storyboard; path = MGVideoPlayerKit/Assets/MGVideoPlayer.storyboard; sourceTree = "<group>"; };
-		9B4F74B547A76C9DF3DB4919E1FD4124 /* CosmosRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosRating.swift; path = Cosmos/CosmosRating.swift; sourceTree = "<group>"; };
+		91AC65AA428EAF03D08D5906D3E308C4 /* Cosmos.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cosmos.xcconfig; sourceTree = "<group>"; };
+		92AC1FFC4C7CFD9B3A64D64CD3CC88A9 /* CosmosTouchTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouchTarget.swift; path = Cosmos/Helpers/CosmosTouchTarget.swift; sourceTree = "<group>"; };
+		9303F7463FE812F9F9B907987FC5D5B5 /* SDWebImageCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCoder.m; path = SDWebImage/SDWebImageCoder.m; sourceTree = "<group>"; };
+		99B8F12E5EC83AC87E54359669772AC4 /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
+		9A3F6A5D3D63A3F28EF70FF570577BB5 /* MGVideoPlayerKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MGVideoPlayerKit.bundle; path = "MGVideoPlayerKit-MGVideoPlayerKit.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D17FE95CBB1ED80B5EE4F0222200746 /* CosmosLocalizedRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLocalizedRating.swift; path = Cosmos/CosmosLocalizedRating.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A82490CF920691470A304E35A0C051EF /* CosmosTouchTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouchTarget.swift; path = Cosmos/Helpers/CosmosTouchTarget.swift; sourceTree = "<group>"; };
+		A606022242C6D45BEF5BCE49BBF11713 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
+		A6F1AAC4AA0279BAF09205508ABF1999 /* SDWebImageCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCoder.h; path = SDWebImage/SDWebImageCoder.h; sourceTree = "<group>"; };
+		A6FBF7513D79C98779C637D3A98C37CD /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		A8719A09BF4B4594F1BCE67E32E15E82 /* SDWebImageCodersManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCodersManager.m; path = SDWebImage/SDWebImageCodersManager.m; sourceTree = "<group>"; };
+		A88641662213BBECBFB8A5521223C0C5 /* CosmosLayers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLayers.swift; path = Cosmos/CosmosLayers.swift; sourceTree = "<group>"; };
+		A8E0509CFBD5ED6804F3C9BB3422D873 /* CosmosTouch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouch.swift; path = Cosmos/CosmosTouch.swift; sourceTree = "<group>"; };
+		A9FFF20D82A3856FCBF6770E86AA6890 /* CosmosView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosView.swift; path = Cosmos/CosmosView.swift; sourceTree = "<group>"; };
 		AA0948081BA0B56D79D3B3FC6B0D0FAD /* MGVideoPlayerKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MGVideoPlayerKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B3432F93E372964260C489026A5689D6 /* Pods_MGVideoPlayerKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MGVideoPlayerKit_Example.framework; path = "Pods-MGVideoPlayerKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7560534F65D851C5BC803413C76C48F /* MGVideoPlayerKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MGVideoPlayerKit.bundle; path = "MGVideoPlayerKit-MGVideoPlayerKit.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B77D37F1FEDCB633E61B3254D3F67269 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		B93A0C5E4929315B0002C63C1B696CB4 /* StarLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarLayer.swift; path = Cosmos/StarLayer.swift; sourceTree = "<group>"; };
+		AD4340502FC166C4B86ACBFC1212BC9F /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
+		B4E40DA538586380B9C2ED13375251D9 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		B560BD68B993D7409D5F0E01A9034F9A /* StarLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarLayer.swift; path = Cosmos/StarLayer.swift; sourceTree = "<group>"; };
+		B7C9B41BA4AA896B2E2F794691332AC9 /* SDWebImageGIFCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageGIFCoder.h; path = SDWebImage/SDWebImageGIFCoder.h; sourceTree = "<group>"; };
+		BD22EDADFD0A6B26D281BBC8BC952AEA /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		BF9F7DC45EEEE209833DC9612FF8FE8A /* SDWebImageGIFCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageGIFCoder.m; path = SDWebImage/SDWebImageGIFCoder.m; sourceTree = "<group>"; };
+		C1C133152D240D0196C4C86A70FB2C50 /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
+		C38CDEB41ABC76E454C7DA08BD9291B5 /* Cosmos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Cosmos.modulemap; sourceTree = "<group>"; };
 		C44FD01B0B0772DB7B75E6E0B01214ED /* MGVideoPlayerKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MGVideoPlayerKit.modulemap; sourceTree = "<group>"; };
-		CF17970191D3C3E62465FBD73D3C5623 /* RightToLeft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RightToLeft.swift; path = Cosmos/Helpers/RightToLeft.swift; sourceTree = "<group>"; };
+		C54716185EFF1CE701FDD634DC8CEB96 /* NSButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSButton+WebCache.m"; path = "SDWebImage/NSButton+WebCache.m"; sourceTree = "<group>"; };
+		C74F8AFDF1ADDA5C8474FEF585796726 /* Cosmos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cosmos-umbrella.h"; sourceTree = "<group>"; };
+		C80E3DBF4E50D3B38FB7C8503BE1C3E2 /* SDWebImageImageIOCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageImageIOCoder.m; path = SDWebImage/SDWebImageImageIOCoder.m; sourceTree = "<group>"; };
+		C92246EF817D02A5E79F6D428C563CAF /* SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.xcconfig; sourceTree = "<group>"; };
+		CEF164B4162B12EF7EE6515C97731F23 /* SDWebImageCoderHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCoderHelper.h; path = SDWebImage/SDWebImageCoderHelper.h; sourceTree = "<group>"; };
 		D2C195DE4607CF413317F9ACB2736A9A /* MGVideoPlayerData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MGVideoPlayerData.swift; path = MGVideoPlayerKit/Classes/MGVideoPlayerData.swift; sourceTree = "<group>"; };
-		D5678EB5010255E1F537ADF506B4A524 /* Cosmos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cosmos.framework; path = Cosmos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D64013E3E394F50AA4BA1ABDD7DD323C /* Cosmos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cosmos-umbrella.h"; sourceTree = "<group>"; };
+		D322C10A12C7B71E045C87DF1115E11F /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		D35CC4AE14D452FDA1446BCD83E30BD4 /* UIView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCache.h"; path = "SDWebImage/UIView+WebCache.h"; sourceTree = "<group>"; };
+		D4966EB202EA6F11EEE055571B8F1A20 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
+		D4BE78D9E0E326895CA9B69EA53B7F11 /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
+		D9FF8DDA9DB1E2620570432E898784A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DACF6DBBCC3D71B7D66A00D3293C8755 /* SDAnimatedImageRep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImageRep.h; path = SDWebImage/SDAnimatedImageRep.h; sourceTree = "<group>"; };
 		DCAAD5979E631411DE5337EEDD7D4AAE /* Pods-MGVideoPlayerKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MGVideoPlayerKit_Example.modulemap"; sourceTree = "<group>"; };
+		DD19B9B4D2032971AA74939FAFBFA6C7 /* SDWebImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-umbrella.h"; sourceTree = "<group>"; };
+		E0ED775B38BE60DD0E965528DC0A3F8D /* UIView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCache.m"; path = "SDWebImage/UIView+WebCache.m"; sourceTree = "<group>"; };
+		E23318B6B4AF616DF551EC81D23062F2 /* Cosmos-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cosmos-prefix.pch"; sourceTree = "<group>"; };
 		E310C707F3BE8B530C38B08A0DF5F27F /* ResourceBundle-MGVideoPlayerKit-MGVideoPlayerKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MGVideoPlayerKit-MGVideoPlayerKit-Info.plist"; sourceTree = "<group>"; };
-		E458D7FC1E2D6D740B52E85D130F6E64 /* CosmosLayers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLayers.swift; path = Cosmos/CosmosLayers.swift; sourceTree = "<group>"; };
-		EE1EEF4B663E3B39881A0CC49EC3026E /* CosmosLocalizedRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLocalizedRating.swift; path = Cosmos/CosmosLocalizedRating.swift; sourceTree = "<group>"; };
-		EE259E751DEE17B9771BE6829E2EE707 /* CosmosLayerHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLayerHelper.swift; path = Cosmos/CosmosLayerHelper.swift; sourceTree = "<group>"; };
+		E46857162F5CE2F4794C36F874BE11B6 /* SDWebImageCodersManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCodersManager.h; path = SDWebImage/SDWebImageCodersManager.h; sourceTree = "<group>"; };
+		E476AB2526B1E59644A831408AB85FE0 /* SDWebImageTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageTransition.m; path = SDWebImage/SDWebImageTransition.m; sourceTree = "<group>"; };
+		EBD5FDFD2071B02177153A43808B5AD9 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		EF270B11AA8E2CE4ED388FC48E0149CD /* CosmosRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosRating.swift; path = Cosmos/CosmosRating.swift; sourceTree = "<group>"; };
 		F0945DF3C78000E1A91813FCAB6B95B6 /* Pods-MGVideoPlayerKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MGVideoPlayerKit_Example-dummy.m"; sourceTree = "<group>"; };
+		F1A283590D3AE79163FD4BA5825025CE /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		F2E6D9331173D938C24A874576080DBA /* NSImage+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSImage+WebCache.m"; path = "SDWebImage/NSImage+WebCache.m"; sourceTree = "<group>"; };
+		F34989E32082A2B84369B188D1265DC9 /* SDWebImageImageIOCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageImageIOCoder.h; path = SDWebImage/SDWebImageImageIOCoder.h; sourceTree = "<group>"; };
+		F6AE7F9B088B9A0CFCF0B999B6C61E35 /* Cosmos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cosmos-dummy.m"; sourceTree = "<group>"; };
+		FCFC9EA1B556932F6203E5E4D67D34C6 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
 		FDD1268E75DE97CE5DC3F179DD758D6B /* MGVideoPlayerKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGVideoPlayerKit-umbrella.h"; sourceTree = "<group>"; };
+		FFB87570060B2C8C7FAC1ABA6186D87B /* SDWebImageFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageFrame.m; path = SDWebImage/SDWebImageFrame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2F84EEE612171359C3D00F95F6E44ABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6547609158BE851C5ED6B0218C2DB1 /* Cosmos.framework in Frameworks */,
+				6F111845C070BA2AC71BA50B71E849B2 /* Foundation.framework in Frameworks */,
+				18E4E5A1DE5B0D24CC24E151D31DE6EC /* SDWebImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F3DA14C7395394BECF6D90AE138A4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0825F888BD5D8469AED3902B03FAB0B /* Foundation.framework in Frameworks */,
+				A1099812CC2110C39027F6BF82095B43 /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5E27E4FF6595BD818E8BBB72E9AED50C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -137,33 +294,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8FD368C0428EE06FFDAB1A9F484AA4DD /* Frameworks */ = {
+		A18AFCB62A45990216A8131348BAE987 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC7CDEDFE0D058B6E139C8A3450103D7 /* Frameworks */ = {
+		B2B7B7494BDDED32383EED2235D5559B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F94896D5C0E04394659593CFB22A8E22 /* Cosmos.framework in Frameworks */,
-				B04A118D571CCB8BA2BB70F8FA8688DC /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E59D1824389292B7F158688458BE1165 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				01B3225A1C8D943DC0DC55ACBCBC842C /* Foundation.framework in Frameworks */,
+				2A4CF5F96A5E2A629764718187B2D2CE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10BDCFCA8D701B15DACC4478CDE311DA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C38CDEB41ABC76E454C7DA08BD9291B5 /* Cosmos.modulemap */,
+				91AC65AA428EAF03D08D5906D3E308C4 /* Cosmos.xcconfig */,
+				F6AE7F9B088B9A0CFCF0B999B6C61E35 /* Cosmos-dummy.m */,
+				2F23533F83EC7434C13D2A5528C33037 /* Cosmos-Info.plist */,
+				E23318B6B4AF616DF551EC81D23062F2 /* Cosmos-prefix.pch */,
+				C74F8AFDF1ADDA5C8474FEF585796726 /* Cosmos-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Cosmos";
+			sourceTree = "<group>";
+		};
 		1DCE8036187CE43598D14AC4E11DE534 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,20 +341,16 @@
 			path = "Example/Pods/Target Support Files/MGVideoPlayerKit";
 			sourceTree = "<group>";
 		};
-		1EEF3410A7BAA1DA5F110A17B8CD6B19 /* Pods */ = {
+		254D1100C8569D6CBCD9C1A8AB227C2C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8F4D1C63B44080452E2F201339C050CD /* Cosmos */,
+				3AF3BF5DE644CF151BA4A886A7224273 /* Cosmos.framework */,
+				9A3F6A5D3D63A3F28EF70FF570577BB5 /* MGVideoPlayerKit.bundle */,
+				1C7F108DE07DB9B2C8EB20E28C2DA490 /* MGVideoPlayerKit.framework */,
+				0CD2E7FDB7F5CB1682B071EA683BB832 /* Pods_MGVideoPlayerKit_Example.framework */,
+				1FA2B068A81BB4CC01B564E42B8333D3 /* SDWebImage.framework */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		353BFE3493CA1967225C97EAA37E3C97 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				B77D37F1FEDCB633E61B3254D3F67269 /* Foundation.framework */,
-			);
-			name = iOS;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		3B85B43F038C0C44D5EF02FDCD9B4865 /* Pods-MGVideoPlayerKit_Example */ = {
@@ -228,25 +386,34 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		8F4D1C63B44080452E2F201339C050CD /* Cosmos */ = {
+		6E26328E9265EF50B7BE1CE8EC5A7932 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				09170CF3197110572B6D0B236201D237 /* CosmosAccessibility.swift */,
-				281DAB66DA9E3282D634548DC5329E91 /* CosmosDefaultSettings.swift */,
-				EE259E751DEE17B9771BE6829E2EE707 /* CosmosLayerHelper.swift */,
-				E458D7FC1E2D6D740B52E85D130F6E64 /* CosmosLayers.swift */,
-				EE1EEF4B663E3B39881A0CC49EC3026E /* CosmosLocalizedRating.swift */,
-				9B4F74B547A76C9DF3DB4919E1FD4124 /* CosmosRating.swift */,
-				622FE24F35229ED52D08EE29F1121DC6 /* CosmosSettings.swift */,
-				054BBED22C652DAFC5483D2EB071CB2C /* CosmosSize.swift */,
-				69DB1ABF67311566A4C6ABF486302257 /* CosmosText.swift */,
-				221BA6F3471E26E8443A77FB17304977 /* CosmosTouch.swift */,
-				A82490CF920691470A304E35A0C051EF /* CosmosTouchTarget.swift */,
-				2C880638F624858453499299C24130F3 /* CosmosView.swift */,
-				CF17970191D3C3E62465FBD73D3C5623 /* RightToLeft.swift */,
-				15AA17A0267F4F653083C079FBD47E5F /* StarFillMode.swift */,
-				B93A0C5E4929315B0002C63C1B696CB4 /* StarLayer.swift */,
-				DDC127BF99114B95BA66927FD20ACC49 /* Support Files */,
+				72AE4677933798E1FDDC2A8DF729EC33 /* Cosmos */,
+				DE7CE53827CF2B9D67901DB0F6719503 /* SDWebImage */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		72AE4677933798E1FDDC2A8DF729EC33 /* Cosmos */ = {
+			isa = PBXGroup;
+			children = (
+				840F4F7DAB45196D545AA0A0AB21375A /* CosmosAccessibility.swift */,
+				1EEC02B0AEE82D55E1488DDF082259D5 /* CosmosDefaultSettings.swift */,
+				0B424B27728FFB710FBE20D1BE03923C /* CosmosLayerHelper.swift */,
+				A88641662213BBECBFB8A5521223C0C5 /* CosmosLayers.swift */,
+				9D17FE95CBB1ED80B5EE4F0222200746 /* CosmosLocalizedRating.swift */,
+				EF270B11AA8E2CE4ED388FC48E0149CD /* CosmosRating.swift */,
+				0B7D214622946BCA997944077E29574A /* CosmosSettings.swift */,
+				6093B106F235E5064CB3A7F728D4E499 /* CosmosSize.swift */,
+				0692F809E0801E7D7B6F431D8C04CF23 /* CosmosText.swift */,
+				A8E0509CFBD5ED6804F3C9BB3422D873 /* CosmosTouch.swift */,
+				92AC1FFC4C7CFD9B3A64D64CD3CC88A9 /* CosmosTouchTarget.swift */,
+				A9FFF20D82A3856FCBF6770E86AA6890 /* CosmosView.swift */,
+				8D3C4CA3E62A9333055D4B6CE70E6A58 /* RightToLeft.swift */,
+				573C7446974D17D02F1D09ACBF08675C /* StarFillMode.swift */,
+				B560BD68B993D7409D5F0E01A9034F9A /* StarLayer.swift */,
+				10BDCFCA8D701B15DACC4478CDE311DA /* Support Files */,
 			);
 			name = Cosmos;
 			path = Cosmos;
@@ -260,12 +427,98 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		A0F0C09DAF83A26F82CF4C45128B6A75 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				13A6791B848FF9A2BAB11BB43F87749A /* SDWebImage.modulemap */,
+				C92246EF817D02A5E79F6D428C563CAF /* SDWebImage.xcconfig */,
+				72C915CC9FFE9F693971A4C4366EBA01 /* SDWebImage-dummy.m */,
+				6E0008BCADA36AF5A9DA5281D4C1B8BC /* SDWebImage-Info.plist */,
+				AD4340502FC166C4B86ACBFC1212BC9F /* SDWebImage-prefix.pch */,
+				DD19B9B4D2032971AA74939FAFBFA6C7 /* SDWebImage-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SDWebImage";
+			sourceTree = "<group>";
+		};
 		B006FFFBA9A703419D696A910CCD7221 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				90A84FC618A8A67B4EB529FA68047212 /* MGVideoPlayer.storyboard */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		B0087B5E364D52335329DD948E27AB90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CD6EA692E323753988D96921B7C9928 /* Cosmos.framework */,
+				374A94B3E57FF9C3F87FA22B67B3EF5D /* SDWebImage.framework */,
+				D018DB2D0DDDE7E341721799C8AF3ACF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC2C83B82AA93FA9915E835EA7C73F45 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6FAF18BE0514D6D175D355A74D08ED78 /* NSButton+WebCache.h */,
+				C54716185EFF1CE701FDD634DC8CEB96 /* NSButton+WebCache.m */,
+				A6FBF7513D79C98779C637D3A98C37CD /* NSData+ImageContentType.h */,
+				39EE3883D7F557231351A827A0BC07D5 /* NSData+ImageContentType.m */,
+				248EF450A3E943579F3107B599CF4F61 /* NSImage+WebCache.h */,
+				F2E6D9331173D938C24A874576080DBA /* NSImage+WebCache.m */,
+				DACF6DBBCC3D71B7D66A00D3293C8755 /* SDAnimatedImageRep.h */,
+				76F757DA9862F4269D8A0E5CCDA3515A /* SDAnimatedImageRep.m */,
+				C1C133152D240D0196C4C86A70FB2C50 /* SDImageCache.h */,
+				635B706AAE4926888FDE35972964168B /* SDImageCache.m */,
+				4E9BB88E97E40C01F65528B7B0FD51DC /* SDImageCacheConfig.h */,
+				25EBB1E58B5187CD058CF866D911F341 /* SDImageCacheConfig.m */,
+				A6F1AAC4AA0279BAF09205508ABF1999 /* SDWebImageCoder.h */,
+				9303F7463FE812F9F9B907987FC5D5B5 /* SDWebImageCoder.m */,
+				CEF164B4162B12EF7EE6515C97731F23 /* SDWebImageCoderHelper.h */,
+				645186B91ABAEC87AACD3D5CB873626F /* SDWebImageCoderHelper.m */,
+				E46857162F5CE2F4794C36F874BE11B6 /* SDWebImageCodersManager.h */,
+				A8719A09BF4B4594F1BCE67E32E15E82 /* SDWebImageCodersManager.m */,
+				35ECAB03F7D1B6D5A3A97AD97D2539C1 /* SDWebImageCompat.h */,
+				2AA9B313DF3C1F0FE756840C31832588 /* SDWebImageCompat.m */,
+				536C907C3299B00AFD03B7F5E05E4BC7 /* SDWebImageDownloader.h */,
+				D4966EB202EA6F11EEE055571B8F1A20 /* SDWebImageDownloader.m */,
+				168B34A0BFF2B4C3858DF690F0F24143 /* SDWebImageDownloaderOperation.h */,
+				F1A283590D3AE79163FD4BA5825025CE /* SDWebImageDownloaderOperation.m */,
+				59CF59B3BA13A3CD0CEDD358775DFC4A /* SDWebImageFrame.h */,
+				FFB87570060B2C8C7FAC1ABA6186D87B /* SDWebImageFrame.m */,
+				B7C9B41BA4AA896B2E2F794691332AC9 /* SDWebImageGIFCoder.h */,
+				BF9F7DC45EEEE209833DC9612FF8FE8A /* SDWebImageGIFCoder.m */,
+				F34989E32082A2B84369B188D1265DC9 /* SDWebImageImageIOCoder.h */,
+				C80E3DBF4E50D3B38FB7C8503BE1C3E2 /* SDWebImageImageIOCoder.m */,
+				1B883DC3985F61BC2A7A8082816F487F /* SDWebImageManager.h */,
+				99B8F12E5EC83AC87E54359669772AC4 /* SDWebImageManager.m */,
+				A606022242C6D45BEF5BCE49BBF11713 /* SDWebImageOperation.h */,
+				038E76821F42D140586B46595C770E79 /* SDWebImagePrefetcher.h */,
+				681E5788F9069E540F1AD1C69D5F0DD0 /* SDWebImagePrefetcher.m */,
+				16059F5F6ACFA6476A27C9E9E432899F /* SDWebImageTransition.h */,
+				E476AB2526B1E59644A831408AB85FE0 /* SDWebImageTransition.m */,
+				FCFC9EA1B556932F6203E5E4D67D34C6 /* UIButton+WebCache.h */,
+				D4BE78D9E0E326895CA9B69EA53B7F11 /* UIButton+WebCache.m */,
+				42DF58DCEF37114948ECC21C1F70693A /* UIImage+ForceDecode.h */,
+				47B58CF67F0B5CF86C5B92BC11B3DF75 /* UIImage+ForceDecode.m */,
+				8E951594B02B22B43F061F15B717738D /* UIImage+GIF.h */,
+				7482CFDCFA9F7E09B6655476188BA36B /* UIImage+GIF.m */,
+				457FBDCE2065661538FB70C83B48D9A2 /* UIImage+MemoryCacheCost.h */,
+				1C9FC973FE0CD915CF8F34248C9385B2 /* UIImage+MemoryCacheCost.m */,
+				1C65D8D287FEABC9901BC5D76C907C9D /* UIImage+MultiFormat.h */,
+				B4E40DA538586380B9C2ED13375251D9 /* UIImage+MultiFormat.m */,
+				2C4F93A1AFF1543D5141DE5F597F9FB3 /* UIImageView+HighlightedWebCache.h */,
+				725BB3561B2CC1C44D572A8D3EACBB93 /* UIImageView+HighlightedWebCache.m */,
+				BD22EDADFD0A6B26D281BBC8BC952AEA /* UIImageView+WebCache.h */,
+				8DF8C1F6A673FADC334D0538FB9E3062 /* UIImageView+WebCache.m */,
+				D35CC4AE14D452FDA1446BCD83E30BD4 /* UIView+WebCache.h */,
+				E0ED775B38BE60DD0E965528DC0A3F8D /* UIView+WebCache.m */,
+				D322C10A12C7B71E045C87DF1115E11F /* UIView+WebCacheOperation.h */,
+				EBD5FDFD2071B02177153A43808B5AD9 /* UIView+WebCacheOperation.m */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 		C54CBD9FAF0B3ED8E2D2D83C8297A886 /* Pod */ = {
@@ -283,45 +536,30 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				F39633FF84FF4AAA357E1630F5BC06FE /* Development Pods */,
-				F1D75740A1EF5BC2A47428D538658529 /* Frameworks */,
-				1EEF3410A7BAA1DA5F110A17B8CD6B19 /* Pods */,
-				E0E7AD3054A540DD45804FD94D5761E0 /* Products */,
+				B0087B5E364D52335329DD948E27AB90 /* Frameworks */,
+				6E26328E9265EF50B7BE1CE8EC5A7932 /* Pods */,
+				254D1100C8569D6CBCD9C1A8AB227C2C /* Products */,
 				9311EAFD6DA71145736A2E2C724D2141 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		DDC127BF99114B95BA66927FD20ACC49 /* Support Files */ = {
+		D018DB2D0DDDE7E341721799C8AF3ACF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				813A252DEE2B41BE6B659E6F804354A5 /* Cosmos.modulemap */,
-				8E2346BC13DB309F1C4D6C7E003B4FFE /* Cosmos.xcconfig */,
-				78896581C23D917B4A2C426A7E839732 /* Cosmos-dummy.m */,
-				4C4DD37CA5CE6E97177BAA58D9871911 /* Cosmos-Info.plist */,
-				31ED04AB60DC462A76EA7A97B402D317 /* Cosmos-prefix.pch */,
-				D64013E3E394F50AA4BA1ABDD7DD323C /* Cosmos-umbrella.h */,
+				D9FF8DDA9DB1E2620570432E898784A3 /* Foundation.framework */,
+				4EED4F6AB02188444B699C55DA50BF15 /* ImageIO.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Cosmos";
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		E0E7AD3054A540DD45804FD94D5761E0 /* Products */ = {
+		DE7CE53827CF2B9D67901DB0F6719503 /* SDWebImage */ = {
 			isa = PBXGroup;
 			children = (
-				D5678EB5010255E1F537ADF506B4A524 /* Cosmos.framework */,
-				B7560534F65D851C5BC803413C76C48F /* MGVideoPlayerKit.bundle */,
-				45BD82099C429648C7F3E5E5869A4C90 /* MGVideoPlayerKit.framework */,
-				B3432F93E372964260C489026A5689D6 /* Pods_MGVideoPlayerKit_Example.framework */,
+				BC2C83B82AA93FA9915E835EA7C73F45 /* Core */,
+				A0F0C09DAF83A26F82CF4C45128B6A75 /* Support Files */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		F1D75740A1EF5BC2A47428D538658529 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0A1C08A49741BDFBF25CE970DEC0B6AE /* Cosmos.framework */,
-				353BFE3493CA1967225C97EAA37E3C97 /* iOS */,
-			);
-			name = Frameworks;
+			name = SDWebImage;
+			path = SDWebImage;
 			sourceTree = "<group>";
 		};
 		F39633FF84FF4AAA357E1630F5BC06FE /* Development Pods */ = {
@@ -335,22 +573,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		06B14E7EBE05BA64E2AD0E11E28CBC57 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E795BAA7B94A55F882359B26307D6221 /* Pods-MGVideoPlayerKit_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0D9BD10F0F44B2513D0FE7B2DE8663DE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F29A271D771689066DD8CF412E7F39E5 /* MGVideoPlayerKit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3B95E6B3C9270BEEB64825D064753E8F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -359,49 +581,61 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3C3829363A8437B1B62F25B422A56069 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BD062F93CC54D951F3A63C1B8BE7F04 /* MGVideoPlayerKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECB30325CD35999B638A3543AEB5B9E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F096081DE59D4A8A0CBAD53A4B4F327 /* Pods-MGVideoPlayerKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA019E70ED6736E100970DCBD552B12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ACD1E8A2BFF8241C9FE3C2881B4FB5B /* NSButton+WebCache.h in Headers */,
+				24DFAA93B0555B9EF5C6EFE4853803B1 /* NSData+ImageContentType.h in Headers */,
+				DC3069158ACBFEAE258E21E1DEE08E16 /* NSImage+WebCache.h in Headers */,
+				58F713595A8396B016BE0A9626F86055 /* SDAnimatedImageRep.h in Headers */,
+				E8DDA599639E8D7D453029D9201ACC4C /* SDImageCache.h in Headers */,
+				19C98CDFE0191CBEFBCF1A4A8A57BFB0 /* SDImageCacheConfig.h in Headers */,
+				6BDD0CC819D8BE116BB06E47BD5464D1 /* SDWebImage-umbrella.h in Headers */,
+				171277BFAD8FD6F79D2ADDD6D4C5943D /* SDWebImageCoder.h in Headers */,
+				9C7CDC3175CF227EA0C21AA9D3402BAE /* SDWebImageCoderHelper.h in Headers */,
+				CEDE870D655CADCB6DA824DCCE0C3E84 /* SDWebImageCodersManager.h in Headers */,
+				910514A34261ED44B69863C2899CFACB /* SDWebImageCompat.h in Headers */,
+				65BD36A53DE3C4238F12AF7E1341B65B /* SDWebImageDownloader.h in Headers */,
+				5449808E26220A1CAA850DC937D16ABA /* SDWebImageDownloaderOperation.h in Headers */,
+				7A51ECE72D1FDC37007D1008E7F69E15 /* SDWebImageFrame.h in Headers */,
+				23030BE1543C83FD95A63D91900D096C /* SDWebImageGIFCoder.h in Headers */,
+				5CEDCF0FE7BCB9DAEAB35827665E77B0 /* SDWebImageImageIOCoder.h in Headers */,
+				2C59F982DDD946FB8FCF22BB8E84A695 /* SDWebImageManager.h in Headers */,
+				E5A027841A2B6E0D259B0D622A8A78DA /* SDWebImageOperation.h in Headers */,
+				FD42EDF03E1622714B266A84BD1A0118 /* SDWebImagePrefetcher.h in Headers */,
+				5310D6731D3C98BBA80AD7ED68D2EC96 /* SDWebImageTransition.h in Headers */,
+				D6DC8C651C485815F12C0DD9BD732522 /* UIButton+WebCache.h in Headers */,
+				20A32235C428BE6651224D560B750853 /* UIImage+ForceDecode.h in Headers */,
+				E0BBB5F637DA2BB28199C81728D64D76 /* UIImage+GIF.h in Headers */,
+				6C096FE72D0292223307E3C9142560A6 /* UIImage+MemoryCacheCost.h in Headers */,
+				58A3BFF9DB03114464082DFC4982DB64 /* UIImage+MultiFormat.h in Headers */,
+				B66D31C490299DF0FA67494F182056A2 /* UIImageView+HighlightedWebCache.h in Headers */,
+				AF1995EA4308310CDB5C5C42A7B1E958 /* UIImageView+WebCache.h in Headers */,
+				9BF8D0C7F812425BB271DFA8CD252623 /* UIView+WebCache.h in Headers */,
+				FB45679D58D1722435BDAF5061F8B2D5 /* UIView+WebCacheOperation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		071A4A9A19DE7B6F54C5E6EE67B4543C /* MGVideoPlayerKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 37F1D16879E1B2B6FEFC5CD8CE68F2DE /* Build configuration list for PBXNativeTarget "MGVideoPlayerKit" */;
-			buildPhases = (
-				0D9BD10F0F44B2513D0FE7B2DE8663DE /* Headers */,
-				92A65F0D412958174C52C882E3849970 /* Sources */,
-				CC7CDEDFE0D058B6E139C8A3450103D7 /* Frameworks */,
-				45376DD074C32B4BDD7C98983B14E1E6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				250D90102C782558184E45B356B98D22 /* PBXTargetDependency */,
-				8F4F90A8FC7D0083F181BBE28332DC90 /* PBXTargetDependency */,
-			);
-			name = MGVideoPlayerKit;
-			productName = MGVideoPlayerKit;
-			productReference = 45BD82099C429648C7F3E5E5869A4C90 /* MGVideoPlayerKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		3EDFFE65C65528494951DC0094501494 /* Pods-MGVideoPlayerKit_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D64C05E85049D3BF5B87A965D3C2356E /* Build configuration list for PBXNativeTarget "Pods-MGVideoPlayerKit_Example" */;
-			buildPhases = (
-				06B14E7EBE05BA64E2AD0E11E28CBC57 /* Headers */,
-				81CF0D8EC9F3E2873104A2305D6BC1F8 /* Sources */,
-				E59D1824389292B7F158688458BE1165 /* Frameworks */,
-				3D0B6F7AD70FFB286B87BAA38722423D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8A311C61AD043204058E561730C57298 /* PBXTargetDependency */,
-				FF0A11974F9C3A974BD35E78EDDB66B7 /* PBXTargetDependency */,
-			);
-			name = "Pods-MGVideoPlayerKit_Example";
-			productName = "Pods-MGVideoPlayerKit_Example";
-			productReference = B3432F93E372964260C489026A5689D6 /* Pods_MGVideoPlayerKit_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		64A5B0D84D8579CF3E24DF2C12D99B08 /* Cosmos */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2335538F1E562E6E1544476F6CC4848 /* Build configuration list for PBXNativeTarget "Cosmos" */;
@@ -417,16 +651,34 @@
 			);
 			name = Cosmos;
 			productName = Cosmos;
-			productReference = D5678EB5010255E1F537ADF506B4A524 /* Cosmos.framework */;
+			productReference = 3AF3BF5DE644CF151BA4A886A7224273 /* Cosmos.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		70E26BFA93A969A2A2D63C86F434AD5A /* MGVideoPlayerKit-MGVideoPlayerKit */ = {
+		98F899D0BB5DEB29A92CBD87818ACA9A /* SDWebImage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2212BEF82667F041F8272B644967EFCC /* Build configuration list for PBXNativeTarget "MGVideoPlayerKit-MGVideoPlayerKit" */;
+			buildConfigurationList = 1A5068E775AB6154AE22F94B56566B48 /* Build configuration list for PBXNativeTarget "SDWebImage" */;
 			buildPhases = (
-				1810B4FDE3B8C60AB77EBC33DE61ABC0 /* Sources */,
-				8FD368C0428EE06FFDAB1A9F484AA4DD /* Frameworks */,
-				49426484C735CAD43F0E5F5C16F6BDA1 /* Resources */,
+				FFA019E70ED6736E100970DCBD552B12 /* Headers */,
+				2D4CC42018347FC244B436BE2F08E8F8 /* Sources */,
+				43F3DA14C7395394BECF6D90AE138A4E /* Frameworks */,
+				A6D299097FAA9E14882B462335596B47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDWebImage;
+			productName = SDWebImage;
+			productReference = 1FA2B068A81BB4CC01B564E42B8333D3 /* SDWebImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D29750D5320FB4D0B3333C2B5B9C9859 /* MGVideoPlayerKit-MGVideoPlayerKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F27545FCB89003370969178A3CE20945 /* Build configuration list for PBXNativeTarget "MGVideoPlayerKit-MGVideoPlayerKit" */;
+			buildPhases = (
+				33B41B40A94EC3525FAA9F3B0A6FD160 /* Sources */,
+				A18AFCB62A45990216A8131348BAE987 /* Frameworks */,
+				3244EC0E5ABE8348C3873FCB43C3EA31 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -434,8 +686,50 @@
 			);
 			name = "MGVideoPlayerKit-MGVideoPlayerKit";
 			productName = "MGVideoPlayerKit-MGVideoPlayerKit";
-			productReference = B7560534F65D851C5BC803413C76C48F /* MGVideoPlayerKit.bundle */;
+			productReference = 9A3F6A5D3D63A3F28EF70FF570577BB5 /* MGVideoPlayerKit.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		E92520A53B639410D0FDB1804BCFB179 /* Pods-MGVideoPlayerKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D4FEEB3D309893039B4381C820E4909 /* Build configuration list for PBXNativeTarget "Pods-MGVideoPlayerKit_Example" */;
+			buildPhases = (
+				CECB30325CD35999B638A3543AEB5B9E /* Headers */,
+				0E27950FC2160A411E2BF703F8CB12E2 /* Sources */,
+				B2B7B7494BDDED32383EED2235D5559B /* Frameworks */,
+				717169219B51F44FBEF1BC952DB7854A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC85443C3207001A47635A4E78559E03 /* PBXTargetDependency */,
+				B638D5943422F099377480895C909B53 /* PBXTargetDependency */,
+				0654E376F82B3B0AB7AEF91D4E7B18BF /* PBXTargetDependency */,
+			);
+			name = "Pods-MGVideoPlayerKit_Example";
+			productName = "Pods-MGVideoPlayerKit_Example";
+			productReference = 0CD2E7FDB7F5CB1682B071EA683BB832 /* Pods_MGVideoPlayerKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F804247AA5536031960CD5D07E5FA8F6 /* MGVideoPlayerKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A469A0CFD2F8AE814A89FD0BE91E7989 /* Build configuration list for PBXNativeTarget "MGVideoPlayerKit" */;
+			buildPhases = (
+				3C3829363A8437B1B62F25B422A56069 /* Headers */,
+				6571AE964297323C4E02F68B6D54D372 /* Sources */,
+				2F84EEE612171359C3D00F95F6E44ABB /* Frameworks */,
+				2EFC993850599F62BCCC3A6F4E8068F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E4D61798F98565D94509B92D32D1D47 /* PBXTargetDependency */,
+				539BCFF5DE7CAEB76272F08426FC36A3 /* PBXTargetDependency */,
+				BF8D7F93759BD0078BC27B80495DB57B /* PBXTargetDependency */,
+			);
+			name = MGVideoPlayerKit;
+			productName = MGVideoPlayerKit;
+			productReference = 1C7F108DE07DB9B2C8EB20E28C2DA490 /* MGVideoPlayerKit.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -454,39 +748,47 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = E0E7AD3054A540DD45804FD94D5761E0 /* Products */;
+			productRefGroup = 254D1100C8569D6CBCD9C1A8AB227C2C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				64A5B0D84D8579CF3E24DF2C12D99B08 /* Cosmos */,
-				071A4A9A19DE7B6F54C5E6EE67B4543C /* MGVideoPlayerKit */,
-				70E26BFA93A969A2A2D63C86F434AD5A /* MGVideoPlayerKit-MGVideoPlayerKit */,
-				3EDFFE65C65528494951DC0094501494 /* Pods-MGVideoPlayerKit_Example */,
+				F804247AA5536031960CD5D07E5FA8F6 /* MGVideoPlayerKit */,
+				D29750D5320FB4D0B3333C2B5B9C9859 /* MGVideoPlayerKit-MGVideoPlayerKit */,
+				E92520A53B639410D0FDB1804BCFB179 /* Pods-MGVideoPlayerKit_Example */,
+				98F899D0BB5DEB29A92CBD87818ACA9A /* SDWebImage */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3D0B6F7AD70FFB286B87BAA38722423D /* Resources */ = {
+		2EFC993850599F62BCCC3A6F4E8068F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E9FC9A84BB57C3E0A4E735E1DE4E0D /* MGVideoPlayerKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3244EC0E5ABE8348C3873FCB43C3EA31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64381D57B0038090B38E7CD98FCE4FD0 /* MGVideoPlayer.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		717169219B51F44FBEF1BC952DB7854A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		45376DD074C32B4BDD7C98983B14E1E6 /* Resources */ = {
+		A6D299097FAA9E14882B462335596B47 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F0A522E10C3E79809FDFDF48F3DC36 /* MGVideoPlayerKit.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		49426484C735CAD43F0E5F5C16F6BDA1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				850BCAA324EB47D344D381508690404C /* MGVideoPlayer.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,31 +802,66 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1810B4FDE3B8C60AB77EBC33DE61ABC0 /* Sources */ = {
+		0E27950FC2160A411E2BF703F8CB12E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90A6808DCB8B6771585EE855ADACF659 /* Pods-MGVideoPlayerKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4CC42018347FC244B436BE2F08E8F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C690BD7DA12838D2009CA78710A34639 /* NSButton+WebCache.m in Sources */,
+				59F6D9F61C624478B9E9F7C649F97167 /* NSData+ImageContentType.m in Sources */,
+				782E9E11283F96CD5DB1D8C5CE03D469 /* NSImage+WebCache.m in Sources */,
+				CDF651825C4506FE315FDE6CB203854C /* SDAnimatedImageRep.m in Sources */,
+				3F43513EAEF1AF01271C3C22A5D1C9A2 /* SDImageCache.m in Sources */,
+				3B9817ED34488218F7E0AA0CD372AF48 /* SDImageCacheConfig.m in Sources */,
+				B1CAF52695310600E70E70793743F55B /* SDWebImage-dummy.m in Sources */,
+				1BD59FE3FEA44F3026D04A4AD838111A /* SDWebImageCoder.m in Sources */,
+				82328F5BEFF134A7F06B04FB6C92F4C0 /* SDWebImageCoderHelper.m in Sources */,
+				85F2CBB741B2B4FB60687289DE794D99 /* SDWebImageCodersManager.m in Sources */,
+				27E6D3073D2A137A6E82E0971E542DFB /* SDWebImageCompat.m in Sources */,
+				50F8C23EECB2B285B183E633348B6099 /* SDWebImageDownloader.m in Sources */,
+				210878959C7E8F7816F4C75D0EE8474E /* SDWebImageDownloaderOperation.m in Sources */,
+				DB0395A72E205FCEEA36BE95EB58A9DD /* SDWebImageFrame.m in Sources */,
+				E78EC7A38660C337AF6043F6E7366C82 /* SDWebImageGIFCoder.m in Sources */,
+				8FFB7F962C7286A25C0831D43FA87798 /* SDWebImageImageIOCoder.m in Sources */,
+				39195C5863CE2841F60FAE2CB38422DB /* SDWebImageManager.m in Sources */,
+				09E05A416C0FC7BA6A7E2613944FD03B /* SDWebImagePrefetcher.m in Sources */,
+				11AE239535649D4EDD3FC0E6F868EB2D /* SDWebImageTransition.m in Sources */,
+				02B15B46BBC1100AD6F52759D4137BDA /* UIButton+WebCache.m in Sources */,
+				D61862084D1CA943AD6213CE07E7FE70 /* UIImage+ForceDecode.m in Sources */,
+				DB6911B320EA88D03D81A7F57C4EC365 /* UIImage+GIF.m in Sources */,
+				0907140DC11E2B962D86D7FEF6DDF2AC /* UIImage+MemoryCacheCost.m in Sources */,
+				19AD956807D92D3CB2837261176CBB25 /* UIImage+MultiFormat.m in Sources */,
+				50C1A62380F833ED04318A951E867818 /* UIImageView+HighlightedWebCache.m in Sources */,
+				60E0810989041A137DC97781A6F531D0 /* UIImageView+WebCache.m in Sources */,
+				55B02E0991B68366442DF8BCC7AE1925 /* UIView+WebCache.m in Sources */,
+				C9606E0DF6B7E67F91B10335674D0DA6 /* UIView+WebCacheOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B41B40A94EC3525FAA9F3B0A6FD160 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		81CF0D8EC9F3E2873104A2305D6BC1F8 /* Sources */ = {
+		6571AE964297323C4E02F68B6D54D372 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C645A24304731AC9AC2FC41107A7DFE1 /* Pods-MGVideoPlayerKit_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		92A65F0D412958174C52C882E3849970 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E053AFDF06841D56502B8BBCA4C8BA5A /* MGVideoPlayer.swift in Sources */,
-				D0C7638C43B7EDD1CCF02F77874F2C07 /* MGVideoPlayerController.swift in Sources */,
-				5C9709E85016C3B5ACF802D8FA61A635 /* MGVideoPlayerData.swift in Sources */,
-				C8B186C99E0B468D487C8264A07B66C0 /* MGVideoPlayerKit-dummy.m in Sources */,
-				1F0BD90C87B44B00D6754E5D3E2B9690 /* MGVideoPlayerListCell.swift in Sources */,
-				8558116CDD30CA25F588781CCFB18553 /* MGVideoPlayerListController.swift in Sources */,
+				82C80FEAABD8E91397121FFF764E2518 /* MGVideoPlayer.swift in Sources */,
+				1ADC431A953E357FD61950CB332657FA /* MGVideoPlayerController.swift in Sources */,
+				67E59C05EFF04FE12202DB9565E767C0 /* MGVideoPlayerData.swift in Sources */,
+				964067C97C21451470EF76E7E1346455 /* MGVideoPlayerKit-dummy.m in Sources */,
+				4AE7E17BF17A239259E1A59FB06A343F /* MGVideoPlayerListCell.swift in Sources */,
+				4E4E30AFF1214735274D392B36531621 /* MGVideoPlayerListController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,38 +891,49 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		250D90102C782558184E45B356B98D22 /* PBXTargetDependency */ = {
+		0654E376F82B3B0AB7AEF91D4E7B18BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = 98F899D0BB5DEB29A92CBD87818ACA9A /* SDWebImage */;
+			targetProxy = E8BA292C9DEEEBDC35E410A71600DA01 /* PBXContainerItemProxy */;
+		};
+		4E4D61798F98565D94509B92D32D1D47 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Cosmos;
 			target = 64A5B0D84D8579CF3E24DF2C12D99B08 /* Cosmos */;
-			targetProxy = 0405F8BECE6EDCF2600F5D201D81FB21 /* PBXContainerItemProxy */;
+			targetProxy = 6191488BDC8190E9BCD5056514AAC1CB /* PBXContainerItemProxy */;
 		};
-		8A311C61AD043204058E561730C57298 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Cosmos;
-			target = 64A5B0D84D8579CF3E24DF2C12D99B08 /* Cosmos */;
-			targetProxy = 3900F063E3BA80414A360BBF938DC352 /* PBXContainerItemProxy */;
-		};
-		8F4F90A8FC7D0083F181BBE28332DC90 /* PBXTargetDependency */ = {
+		539BCFF5DE7CAEB76272F08426FC36A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "MGVideoPlayerKit-MGVideoPlayerKit";
-			target = 70E26BFA93A969A2A2D63C86F434AD5A /* MGVideoPlayerKit-MGVideoPlayerKit */;
-			targetProxy = D17ACD93D338506D488F00498F90E31A /* PBXContainerItemProxy */;
+			target = D29750D5320FB4D0B3333C2B5B9C9859 /* MGVideoPlayerKit-MGVideoPlayerKit */;
+			targetProxy = C16795F268997942B578EB51E2A13220 /* PBXContainerItemProxy */;
 		};
-		FF0A11974F9C3A974BD35E78EDDB66B7 /* PBXTargetDependency */ = {
+		B638D5943422F099377480895C909B53 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MGVideoPlayerKit;
-			target = 071A4A9A19DE7B6F54C5E6EE67B4543C /* MGVideoPlayerKit */;
-			targetProxy = 4FA9D9E70C9BA42C35876D3A68AC6A87 /* PBXContainerItemProxy */;
+			target = F804247AA5536031960CD5D07E5FA8F6 /* MGVideoPlayerKit */;
+			targetProxy = 48F6F8C3B89448D2F02328C55EA24473 /* PBXContainerItemProxy */;
+		};
+		BF8D7F93759BD0078BC27B80495DB57B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = 98F899D0BB5DEB29A92CBD87818ACA9A /* SDWebImage */;
+			targetProxy = E51C15E62E6C78C32AFBFD93873994C8 /* PBXContainerItemProxy */;
+		};
+		DC85443C3207001A47635A4E78559E03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cosmos;
+			target = 64A5B0D84D8579CF3E24DF2C12D99B08 /* Cosmos */;
+			targetProxy = 548E112AD236B41A45A3D9A4C54FF7CE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		300C3A266753145619682980621255E2 /* Release */ = {
+		091C8B11E6E0412B6A4D00A851BED5F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DECC9CD577BBB5288A0986597EAB382 /* Pods-MGVideoPlayerKit_Example.release.xcconfig */;
+			baseConfigurationReference = 09780C019D7EDB156A3B6EAABA1F3C76 /* MGVideoPlayerKit.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -597,41 +945,56 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MGVideoPlayerKit_Example/Pods-MGVideoPlayerKit_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MGVideoPlayerKit/MGVideoPlayerKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGVideoPlayerKit/MGVideoPlayerKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MGVideoPlayerKit_Example/Pods-MGVideoPlayerKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/MGVideoPlayerKit/MGVideoPlayerKit.modulemap";
+				PRODUCT_MODULE_NAME = MGVideoPlayerKit;
+				PRODUCT_NAME = MGVideoPlayerKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2640FF61713DD9E8BF615122E23E354B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C92246EF817D02A5E79F6D428C563CAF /* SDWebImage.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/SDWebImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				PRODUCT_MODULE_NAME = SDWebImage;
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		3DE6387944806CD81748DE0E6187789A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09780C019D7EDB156A3B6EAABA1F3C76 /* MGVideoPlayerKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MGVideoPlayerKit";
-				INFOPLIST_FILE = "Target Support Files/MGVideoPlayerKit/ResourceBundle-MGVideoPlayerKit-MGVideoPlayerKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = MGVideoPlayerKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
 		};
 		4CE281642D6EE9FAB113046B4B6328A0 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -693,9 +1056,25 @@
 			};
 			name = Release;
 		};
+		513232AD99A7D65868107DE97AFCBE20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09780C019D7EDB156A3B6EAABA1F3C76 /* MGVideoPlayerKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MGVideoPlayerKit";
+				INFOPLIST_FILE = "Target Support Files/MGVideoPlayerKit/ResourceBundle-MGVideoPlayerKit-MGVideoPlayerKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = MGVideoPlayerKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		69259D184086720A34D9F3C86C413E5D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E2346BC13DB309F1C4D6C7E003B4FFE /* Cosmos.xcconfig */;
+			baseConfigurationReference = 91AC65AA428EAF03D08D5906D3E308C4 /* Cosmos.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
@@ -790,25 +1169,45 @@
 			};
 			name = Debug;
 		};
-		78A3841413A412378977CF207B41102B /* Release */ = {
+		8919AD6407CDE1737BEFE75B3E62EF97 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09780C019D7EDB156A3B6EAABA1F3C76 /* MGVideoPlayerKit.xcconfig */;
+			baseConfigurationReference = 4DECC9CD577BBB5288A0986597EAB382 /* Pods-MGVideoPlayerKit_Example.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MGVideoPlayerKit";
-				INFOPLIST_FILE = "Target Support Files/MGVideoPlayerKit/ResourceBundle-MGVideoPlayerKit-MGVideoPlayerKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = MGVideoPlayerKit;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MGVideoPlayerKit_Example/Pods-MGVideoPlayerKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MGVideoPlayerKit_Example/Pods-MGVideoPlayerKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 		93E784BAFE704DB7B4105ED1A34FF360 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E2346BC13DB309F1C4D6C7E003B4FFE /* Cosmos.xcconfig */;
+			baseConfigurationReference = 91AC65AA428EAF03D08D5906D3E308C4 /* Cosmos.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
@@ -838,7 +1237,55 @@
 			};
 			name = Debug;
 		};
-		F142CA2789BDF64731594EC591FA6365 /* Release */ = {
+		9D6777CFC1C34EB34731628F0C6FC4CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C92246EF817D02A5E79F6D428C563CAF /* SDWebImage.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/SDWebImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				PRODUCT_MODULE_NAME = SDWebImage;
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E3F5FC4D777F3D878BCECFB4BF60EE89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09780C019D7EDB156A3B6EAABA1F3C76 /* MGVideoPlayerKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MGVideoPlayerKit";
+				INFOPLIST_FILE = "Target Support Files/MGVideoPlayerKit/ResourceBundle-MGVideoPlayerKit-MGVideoPlayerKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = MGVideoPlayerKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		EECEF1773B3CACB5506AFB29ECE06D03 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 09780C019D7EDB156A3B6EAABA1F3C76 /* MGVideoPlayerKit.xcconfig */;
 			buildSettings = {
@@ -872,40 +1319,7 @@
 			};
 			name = Release;
 		};
-		FA4A8017B6F000D249427D82A6A98550 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09780C019D7EDB156A3B6EAABA1F3C76 /* MGVideoPlayerKit.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MGVideoPlayerKit/MGVideoPlayerKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MGVideoPlayerKit/MGVideoPlayerKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MGVideoPlayerKit/MGVideoPlayerKit.modulemap";
-				PRODUCT_MODULE_NAME = MGVideoPlayerKit;
-				PRODUCT_NAME = MGVideoPlayerKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FF870BBD8F93D1EBCDDC15607DEA3977 /* Debug */ = {
+		F585519420AC33C6587E213C00A94A92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6489F8AC4F5B8CC57592EC95796ADC02 /* Pods-MGVideoPlayerKit_Example.debug.xcconfig */;
 			buildSettings = {
@@ -943,20 +1357,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2212BEF82667F041F8272B644967EFCC /* Build configuration list for PBXNativeTarget "MGVideoPlayerKit-MGVideoPlayerKit" */ = {
+		1A5068E775AB6154AE22F94B56566B48 /* Build configuration list for PBXNativeTarget "SDWebImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3DE6387944806CD81748DE0E6187789A /* Debug */,
-				78A3841413A412378977CF207B41102B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		37F1D16879E1B2B6FEFC5CD8CE68F2DE /* Build configuration list for PBXNativeTarget "MGVideoPlayerKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FA4A8017B6F000D249427D82A6A98550 /* Debug */,
-				F142CA2789BDF64731594EC591FA6365 /* Release */,
+				9D6777CFC1C34EB34731628F0C6FC4CA /* Debug */,
+				2640FF61713DD9E8BF615122E23E354B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -970,11 +1375,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D64C05E85049D3BF5B87A965D3C2356E /* Build configuration list for PBXNativeTarget "Pods-MGVideoPlayerKit_Example" */ = {
+		4D4FEEB3D309893039B4381C820E4909 /* Build configuration list for PBXNativeTarget "Pods-MGVideoPlayerKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF870BBD8F93D1EBCDDC15607DEA3977 /* Debug */,
-				300C3A266753145619682980621255E2 /* Release */,
+				F585519420AC33C6587E213C00A94A92 /* Debug */,
+				8919AD6407CDE1737BEFE75B3E62EF97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A469A0CFD2F8AE814A89FD0BE91E7989 /* Build configuration list for PBXNativeTarget "MGVideoPlayerKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				091C8B11E6E0412B6A4D00A851BED5F9 /* Debug */,
+				EECEF1773B3CACB5506AFB29ECE06D03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -984,6 +1398,15 @@
 			buildConfigurations = (
 				93E784BAFE704DB7B4105ED1A34FF360 /* Debug */,
 				69259D184086720A34D9F3C86C413E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F27545FCB89003370969178A3CE20945 /* Build configuration list for PBXNativeTarget "MGVideoPlayerKit-MGVideoPlayerKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				513232AD99A7D65868107DE97AFCBE20 /* Debug */,
+				E3F5FC4D777F3D878BCECFB4BF60EE89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

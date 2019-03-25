@@ -1,11 +1,3 @@
-#
-# Be sure to run `pod lib lint MGVideoPlayerKit.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'MGVideoPlayerKit'
   s.version          = '0.1.0'
@@ -21,7 +13,8 @@ Pod::Spec.new do |s|
   s.swift_version = '4.2'
   s.source_files = 'MGVideoPlayerKit/Classes/**/*'
   s.resource_bundles = {
-      'MGVideoPlayerKit' => ['MGVideoPlayerKit/Assets/*.{png,storyboard}']
+      'MGVideoPlayerKit' => ['MGVideoPlayerKit/Assets/*.{png,lproj,storyboard}']
   }
   s.dependency 'Cosmos', '~> 18.0'
+  s.dependency 'SDWebImage'
 end

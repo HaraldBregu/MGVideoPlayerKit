@@ -28,10 +28,13 @@ import Foundation
 /// MGVideoPlayerKit Component API
 public class MGVideoPlayer {
     
-    public init() {
+    public init(dataList: [MGVideoPlayerData]) {
+        self.dataList = dataList
         self.listController = _listController
+        self.listController.videoDataList = dataList
     }
     
+    public var dataList: [MGVideoPlayerData]!
     public var listController: MGVideoPlayerListController!
     public var controller: MGVideoPlayerController!
 }
@@ -70,7 +73,10 @@ extension MGVideoPlayer {
     }
     
     private var _storyboardBundle:Bundle {
-        return Bundle(for: MGVideoPlayer.self)
+        let podBundle = Bundle(for: MGVideoPlayer.self)
+        let bundleURL = podBundle.url(forResource: "MGVideoPlayerKit", withExtension: "bundle")
+        let bundle = Bundle(url: bundleURL!)!
+        return bundle
     }
     
 }
