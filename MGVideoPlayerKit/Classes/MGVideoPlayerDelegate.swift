@@ -1,5 +1,5 @@
 // 
-//  MGVideoPlayerData.swift
+//  MGVideoPlayerDelegate.swift
 //
 //  Created by harald bregu on 09/04/2019.
 //  Copyright © 2019 Dream Building Company. All rights reserved.
@@ -25,15 +25,6 @@
 
 import Foundation
 
-public class MGVideoPlayerData {
-    public var title:String!
-    public var navigationBarTitle:String!
-    public var searchBarPlaceholder:String!
-
-    public init() {
-        title = "List"
-        navigationBarTitle = "List"
-        searchBarPlaceholder = "List"
-    }
-
+public protocol MGVideoPlayerDelegate {
+    func videoPlayerController(_ controller:MGVideoPlayerListController, didTapMenuNavigationItem:UIBarButtonItem)
 }
