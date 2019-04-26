@@ -1,7 +1,7 @@
 // 
-//  MGVideoPlayerDataSource.swift
+//  MGVideoPlayerControllerDelegate.swift
 //
-//  Created by harald bregu on 09/04/2019.
+//  Created by harald bregu on 25/04/2019.
 //  Copyright © 2019 Dream Building Company. All rights reserved.
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -25,9 +25,7 @@
 
 import Foundation
 
-public protocol MGVideoPlayerDataSource {
-    var data:MGVideoPlayerData { get }
-    var items:[MGVideoPlayerItem] { get }
-    var layout:MGVideoPlayerLayout { get }
+public protocol MGVideoPlayerControllerDelegate {
+    func controller(_ controller: UIViewController, didTapBarButtonItem barButtonItem: UIBarButtonItem)
+    func controller(_ controller: UIViewController, didTapButton button: UIButton)
 }
-

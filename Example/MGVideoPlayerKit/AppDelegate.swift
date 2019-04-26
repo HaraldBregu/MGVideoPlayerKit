@@ -10,66 +10,103 @@ import UIKit
 import MGVideoPlayerKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate, MGVideoPlayerDataSource, MGVideoPlayerDelegate {
-    
+class AppDelegate: UIResponder, UIApplicationDelegate, MGVideoPlayerControllerDelegate, MGVideoPlayerControllerDataSource {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        let videoPlayer = MGVideoPlayer()
-        videoPlayer.dataSource = self
-        videoPlayer.delegate = self
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = videoPlayer.containerController
+
+        let videoPlayerController = MGVideoPlayerListController.instance
+        videoPlayerController.delegate = self
+        videoPlayerController.dataSource = self
+        videoPlayerController.assets = VideoPlayerAsset(
+            string: VideoPlayerString(
+                title: "Movie Player",
+                navigationBarTitle: "Movie Player",
+                searchBarPlaceholder: "Search"),
+            font: VideoPlayerFont(
+                tableViewCellTitle: nil,
+                tableViewCellDescription: nil,
+                tableViewCellSubtitle: nil,
+                tableViewCellRating: nil,
+                detailTitle: nil,
+                detailDescription: nil,
+                detailSubtitle: nil,
+                detailRating: nil,
+                actorListFullname: nil,
+                actorListRolename: nil),
+            image: VideoPlayerImage(
+                likeNormal: #imageLiteral(resourceName: "menu") ,
+                likeSelected: #imageLiteral(resourceName: "menu"),
+                likeHighlighted: #imageLiteral(resourceName: "menu"),
+                shareNormal: #imageLiteral(resourceName: "menu")),
+            color: VideoPlayerColor(
+                navigationBar: .black,
+                navigationBarContent: .white,
+                toolBar: .black,
+                toolBarContent: .white,
+                view: .black,
+                viewContent: .white,
+                tableView: .black,
+                tableViewSeparator: .white,
+                refresh: .white,
+                searchBarContent: .white,
+                tableViewCell: .black,
+                tableViewCellContent: .white,
+                collectionView: .black,
+                collectionViewContent: .white),
+            data: VideoPlayerData(
+                items: self.items,
+                darkKeyboard: true))
+        
+        window?.rootViewController = UINavigationController(rootViewController: videoPlayerController)
         window?.makeKeyAndVisible()
+        
         return true
     }
+    
+    func controller(_ controller: UIViewController, didTapBarButtonItem barButtonItem: UIBarButtonItem) {
+//        let items = [item.title!, item.description!]
+//        let activityIndicator = UIActivityViewController(activityItems: items, applicationActivities: nil)
+//        present(activityIndicator, animated: true)
+//        if let popover = activityIndicator.popoverPresentationController {
+//            popover.sourceView = self.view
+//            popover.barButtonItem = barButtonItem
+//        }
 
-    func applicationWillResignActive(_ application: UIApplication) {
-        // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-        // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
     }
+    
+    func controller(_ controller: UIViewController, didTapButton button: UIButton) {
 
-    func applicationDidEnterBackground(_ application: UIApplication) {
-        // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-        // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
     }
-
-    func applicationWillEnterForeground(_ application: UIApplication) {
-        // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+    
+    func leftBarButtonItems(_ controller: UIViewController) -> [UIBarButtonItem] {
+        if controller is MGVideoPlayerListController {
+            let menuBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: nil, action: nil)
+            menuBarButtonItem.style = .plain
+            menuBarButtonItem.accessibilityIdentifier = "MENU"
+            return [menuBarButtonItem]
+        }
+        let menuBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: nil, action: nil)
+        menuBarButtonItem.style = .plain
+        menuBarButtonItem.accessibilityIdentifier = "MENU"
+        return [menuBarButtonItem]
     }
-
-    func applicationDidBecomeActive(_ application: UIApplication) {
-        // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-    }
-
-    func applicationWillTerminate(_ application: UIApplication) {
-        // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-    }
-
-    var data: MGVideoPlayerData {
-        return MGVideoPlayerData()
+    
+    func rightBarButtonItems(_ controller: UIViewController) -> [UIBarButtonItem] {
+        if controller is MGVideoPlayerController {
+            let shareBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: nil, action: nil)
+            shareBarButtonItem.style = .plain
+            shareBarButtonItem.accessibilityIdentifier = "SHARE"
+            return [shareBarButtonItem]
+        }
+        let shareBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: nil, action: nil)
+        shareBarButtonItem.style = .plain
+        shareBarButtonItem.accessibilityIdentifier = "SHARE"
+        return [shareBarButtonItem]
     }
     
     var items: [MGVideoPlayerItem] {
-        return VideoData.items
-    }
-    
-    var layout: MGVideoPlayerLayout {
-        let object = MGVideoPlayerLayout()
-        //object.tableViewCell.backgroundColor = .red
-        
-        return object
-    }
-
-    func videoPlayerController(_ controller: MGVideoPlayerListController, didTapMenuNavigationItem: UIBarButtonItem) {
-        
-    }
-}
-
-
-class VideoData {
-    
-    class var items: [MGVideoPlayerItem] {
         var videos = [MGVideoPlayerItem]()
         
         // VIDEO
@@ -149,7 +186,6 @@ class VideoData {
         vid6.category = " Action, Adventure, Crime"
         vid6.starCount = 5
         vid6.reviewCount = 133700
-        vid6.isFeatured = true
         vid6.actors = [
             MGVideoPlayerActorItem(name: "Jon Bernthal", roleName: "Frank Castle", pictureUrl: "https://m.media-amazon.com/images/M/MV5BMTcwNzA5MDg0OV5BMl5BanBnXkFtZTcwMTU2NjE0Nw@@._V1_.jpg"),
             MGVideoPlayerActorItem(name: "Amber Rose Revah", roleName: "Dinah Madani", pictureUrl: "https://m.media-amazon.com/images/M/MV5BMjM1ODJhNjgtNGRiMy00YTU1LWIyNTctNDM2ZTliMzdkMDQ4XkEyXkFqcGdeQXVyNzUzNDE1NzM@._V1_SY1000_CR0,0,780,1000_AL_.jpg"),
@@ -167,7 +203,6 @@ class VideoData {
         vid7.category = "Adventure, Drama, Sci-Fi"
         vid7.starCount = 4
         vid7.reviewCount = 1466700
-        vid7.isFeatured = true
         vid7.actors = [
             MGVideoPlayerActorItem(name: "Ellen Burstyn", roleName: "Murph (Older)", pictureUrl: "https://m.media-amazon.com/images/M/MV5BMTU4MjYxMDc3MF5BMl5BanBnXkFtZTYwNzU3MDIz._V1_.jpg"),
             MGVideoPlayerActorItem(name: "Matthew McConaughey", roleName: "Cooper", pictureUrl: "https://m.media-amazon.com/images/M/MV5BMTg0MDc3ODUwOV5BMl5BanBnXkFtZTcwMTk2NjY4Nw@@._V1_SY1000_CR0,0,613,1000_AL_.jpg"),
@@ -181,7 +216,7 @@ class VideoData {
         let vid8 = MGVideoPlayerItem()
         vid8.title = "Game Of Thrones"
         vid8.description = "Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss. It is an adaptation of A Song of Ice and Fire, George R. R. Martin's series of fantasy novels, the first of which is A Game of Thrones. It is filmed in Belfast and elsewhere in Northern Ireland, Canada, Croatia, Iceland, Malta, Morocco, Scotland, Spain, and the United States.[1] The series premiered on HBO in the United States on April 17, 2011, and its seventh season ended on August 27, 2017. The series will conclude with its eighth season premiering on April 14, 2019."
-        vid8.pubYear = "TV Series (2011– )"
+        vid8.pubYear = "TV Series 2011"
         vid8.category = "Action, Adventure, Drama"
         vid8.starCount = 4
         vid8.reviewCount = 66700
@@ -223,4 +258,60 @@ class VideoData {
         return videos
     }
     
+}
+
+struct VideoPlayerAsset: MGVideoPlayerAsset {
+    var string: MGVideoPlayerString
+    var font: MGVideoPlayerFont
+    var image: MGVideoPlayerImage
+    var color: MGVideoPlayerColor
+    var data: MGVideoPlayerData
+}
+
+struct VideoPlayerString: MGVideoPlayerString {
+    var title: String
+    var navigationBarTitle: String
+    var searchBarPlaceholder: String
+}
+
+struct VideoPlayerFont: MGVideoPlayerFont {
+    var tableViewCellTitle: UIFont?
+    var tableViewCellDescription: UIFont?
+    var tableViewCellSubtitle: UIFont?
+    var tableViewCellRating: UIFont?
+    var detailTitle: UIFont?
+    var detailDescription: UIFont?
+    var detailSubtitle: UIFont?
+    var detailRating: UIFont?
+    var actorListFullname: UIFont?
+    var actorListRolename: UIFont?
+}
+
+struct VideoPlayerImage: MGVideoPlayerImage {
+    var likeNormal: UIImage
+    var likeSelected: UIImage
+    var likeHighlighted: UIImage
+    var shareNormal: UIImage
+}
+
+struct VideoPlayerColor: MGVideoPlayerColor {
+    var navigationBar: UIColor
+    var navigationBarContent: UIColor
+    var toolBar: UIColor
+    var toolBarContent: UIColor
+    var view: UIColor
+    var viewContent: UIColor
+    var tableView: UIColor
+    var tableViewSeparator: UIColor
+    var refresh: UIColor
+    var searchBarContent: UIColor
+    var tableViewCell: UIColor
+    var tableViewCellContent: UIColor
+    var collectionView: UIColor
+    var collectionViewContent: UIColor
+}
+
+struct VideoPlayerData: MGVideoPlayerData {
+    var items: [MGVideoPlayerItem]?
+    var darkKeyboard: Bool
 }
