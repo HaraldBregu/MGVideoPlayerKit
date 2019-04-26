@@ -17,5 +17,4 @@ Pod::Spec.new do |s|
   }
   s.dependency 'Cosmos', '~> 18.0'
   s.dependency 'SDWebImage', '~> 4.0'
-  s.dependency 'SDWebImage'
 end
