@@ -1,6 +1,6 @@
 PODS:
   - Cosmos (18.0.1)
-  - MGVideoPlayerKit (0.1.2):
+  - MGVideoPlayerKit (0.1.3):
     - Cosmos (~> 18.0)
     - SDWebImage
   - SDWebImage (4.4.6):
@@ -23,7 +23,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Cosmos: 7dfaa3f52584ca5f94ab74b5c2e264019cc9f7f5
-  MGVideoPlayerKit: c5db62250db8d771315fe22ce7490848d814a61a
+  MGVideoPlayerKit: 0ea0fdc3e4a855390a12a333df5109af7a4108c9
   SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
 
 PODFILE CHECKSUM: 07888f14ca5d4ed47eb369835e4768c4efac9faf

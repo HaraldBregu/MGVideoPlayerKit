@@ -153,7 +153,7 @@ extension MGVideoPlayerListController: UITableViewDelegate, UITableViewDataSourc
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let items = assets.data.items ?? []
         let item = isFiltering ? filteredItems[indexPath.row] : items[indexPath.row]
-        guard let controller = storyboard?.instantiateViewController(withIdentifier: "MGVideoPlayerController") as? MGVideoPlayerController else { return }
+        guard let controller = _storyboard.instantiateViewController(withIdentifier: "MGVideoPlayerController") as? MGVideoPlayerController else { return }
         controller.item = item
         controller.assets = assets
         controller.delegate = delegate
@@ -162,7 +162,6 @@ extension MGVideoPlayerListController: UITableViewDelegate, UITableViewDataSourc
     }
     
 }
-
 
 extension MGVideoPlayerListController: UISearchResultsUpdating {
     
@@ -180,6 +179,14 @@ extension MGVideoPlayerListController: AVPlayerViewControllerDelegate {
 }
 
 extension MGVideoPlayerListController {
+    
+    private var _storyboard: UIStoryboard {
+        let podBundle = Bundle(for: MGVideoPlayerListController.self)
+        let bundleURL = podBundle.url(forResource: resourceName, withExtension: resourceExtension)
+        let bundle = Bundle(url: bundleURL!) ?? Bundle()
+        let storyboard = UIStoryboard(name: storyboardName, bundle: bundle)
+        return storyboard
+    }
     
     public static var instance: MGVideoPlayerListController {
         let podBundle = Bundle(for: MGVideoPlayerListController.self)
