@@ -50,9 +50,10 @@ public class MGVideoPlayerListController:UIViewController {
         navigationController?.navigationBar.barStyle = .black
         navigationController?.navigationBar.prefersLargeTitles = true
         navigationController?.navigationBar.isTranslucent = false
-        
+
         definesPresentationContext = true
         navigationItem.largeTitleDisplayMode = .always
+        navigationItem.prompt = assets.string.navigationListPlayerPrompt
         searchController = UISearchController(searchResultsController: nil)
         searchController.searchResultsUpdater = self
         searchController.obscuresBackgroundDuringPresentation = false

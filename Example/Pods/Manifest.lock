@@ -1,6 +1,6 @@
 PODS:
   - Cosmos (18.0.1)
-  - MGVideoPlayerKit (0.1.0):
+  - MGVideoPlayerKit (0.1.2):
     - Cosmos (~> 18.0)
     - SDWebImage
   - SDWebImage (4.4.6):
@@ -10,7 +10,7 @@ PODS:
 DEPENDENCIES:
   - Cosmos (~> 18.0)
   - MGVideoPlayerKit (from `../`)
-  - SDWebImage
+  - SDWebImage (~> 4.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -23,9 +23,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Cosmos: 7dfaa3f52584ca5f94ab74b5c2e264019cc9f7f5
-  MGVideoPlayerKit: dc9fff344a9adb331ca29dff9a3bf910c538b482
+  MGVideoPlayerKit: c5db62250db8d771315fe22ce7490848d814a61a
   SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
 
-PODFILE CHECKSUM: 1703365baead6d30616653a3d9f208b145ab61db
+PODFILE CHECKSUM: 07888f14ca5d4ed47eb369835e4768c4efac9faf
 
 COCOAPODS: 1.6.1

@@ -56,7 +56,8 @@ public class MGVideoPlayerController: UIViewController {
         navigationController?.navigationBar.barTintColor = assets.color.navigationBar
         navigationController?.navigationBar.tintColor = assets.color.navigationBarContent
         navigationItem.largeTitleDisplayMode = .never
-      
+        navigationItem.prompt = assets.string.navigationVideoPlayerPrompt
+
         collectionView.backgroundColor = assets.color.collectionView
 
         if let items = dataSource?.leftBarButtonItems(self) {

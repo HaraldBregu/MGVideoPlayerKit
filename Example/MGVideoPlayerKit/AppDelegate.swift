@@ -23,7 +23,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MGVideoPlayerControllerDe
             string: VideoPlayerString(
                 title: "Movie Player",
                 navigationBarTitle: "Movie Player",
-                searchBarPlaceholder: "Search"),
+                searchBarPlaceholder: "Search",
+                navigationListPlayerPrompt: nil,
+                navigationVideoPlayerPrompt: nil),
             font: VideoPlayerFont(
                 tableViewCellTitle: nil,
                 tableViewCellDescription: nil,
@@ -73,7 +75,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MGVideoPlayerControllerDe
 //            popover.sourceView = self.view
 //            popover.barButtonItem = barButtonItem
 //        }
-
     }
     
     func controller(_ controller: UIViewController, didTapButton button: UIButton) {
@@ -272,6 +273,8 @@ struct VideoPlayerString: MGVideoPlayerString {
     var title: String
     var navigationBarTitle: String
     var searchBarPlaceholder: String
+    var navigationListPlayerPrompt: String?
+    var navigationVideoPlayerPrompt: String?
 }
 
 struct VideoPlayerFont: MGVideoPlayerFont {

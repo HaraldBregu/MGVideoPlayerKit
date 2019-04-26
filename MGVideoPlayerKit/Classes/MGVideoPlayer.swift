@@ -37,6 +37,8 @@ public protocol MGVideoPlayerString {
     var title:String { get set }
     var navigationBarTitle:String { get set }
     var searchBarPlaceholder:String { get set }
+    var navigationListPlayerPrompt:String? { get set }
+    var navigationVideoPlayerPrompt:String? { get set }
 }
 
 public protocol MGVideoPlayerFont {
