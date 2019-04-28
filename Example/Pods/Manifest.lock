@@ -1,31 +1,129 @@
 PODS:
   - Cosmos (18.0.1)
-  - MGVideoPlayerKit (0.1.3):
+  - Firebase/AdMob (5.20.2):
+    - Firebase/Core
+    - Google-Mobile-Ads-SDK (~> 7.42)
+  - Firebase/Core (5.20.2):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.8.1)
+  - Firebase/CoreOnly (5.20.2):
+    - FirebaseCore (= 5.4.1)
+  - FirebaseAnalytics (5.8.1):
+    - FirebaseCore (~> 5.4)
+    - FirebaseInstanceID (~> 3.8)
+    - GoogleAppMeasurement (= 5.8.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - FirebaseCore (5.4.1):
+    - GoogleUtilities/Environment (~> 5.2)
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseInstanceID (3.8.1):
+    - FirebaseCore (~> 5.2)
+    - GoogleUtilities/Environment (~> 5.2)
+    - GoogleUtilities/UserDefaults (~> 5.2)
+  - FontBlaster (4.1.0)
+  - Google-Mobile-Ads-SDK (7.43.0):
+    - GoogleAppMeasurement (~> 5.7)
+  - GoogleAppMeasurement (5.8.1):
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - GoogleUtilities/AppDelegateSwizzler (5.8.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (5.8.0)
+  - GoogleUtilities/Logger (5.8.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (5.8.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (5.8.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (5.8.0)"
+  - GoogleUtilities/Reachability (5.8.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (5.8.0):
+    - GoogleUtilities/Logger
+  - MGTemplateKit (0.2.0):
+    - FontBlaster
+    - UIColor_Hex_Swift (~> 4.2.0)
+  - MGVideoPlayerKit (0.1.4):
     - Cosmos (~> 18.0)
-    - SDWebImage
+    - Firebase/AdMob
+    - Firebase/Core
+    - SDWebImage (~> 4.0)
+    - SnapKit (~> 4.0.0)
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
   - SDWebImage (4.4.6):
     - SDWebImage/Core (= 4.4.6)
   - SDWebImage/Core (4.4.6)
+  - SnapKit (4.0.1)
+  - UIColor_Hex_Swift (4.2.0)
 
 DEPENDENCIES:
   - Cosmos (~> 18.0)
+  - Firebase/AdMob
+  - Firebase/Core
+  - "MGTemplateKit (from `https://haraldbregu:4a4d1162147e80549f22cafb59060bdf59c4934a@github.com/HaraldBregu/MGTemplateKit.git`)"
   - MGVideoPlayerKit (from `../`)
   - SDWebImage (~> 4.0)
+  - SnapKit (~> 4.0.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Cosmos
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FontBlaster
+    - Google-Mobile-Ads-SDK
+    - GoogleAppMeasurement
+    - GoogleUtilities
+    - nanopb
     - SDWebImage
+    - SnapKit
+    - UIColor_Hex_Swift
 
 EXTERNAL SOURCES:
+  MGTemplateKit:
+    :git: "https://haraldbregu:4a4d1162147e80549f22cafb59060bdf59c4934a@github.com/HaraldBregu/MGTemplateKit.git"
   MGVideoPlayerKit:
     :path: "../"
 
+CHECKOUT OPTIONS:
+  MGTemplateKit:
+    :commit: 05ab6df2331808118c88bd59624bb1f11ed09412
+    :git: "https://haraldbregu:4a4d1162147e80549f22cafb59060bdf59c4934a@github.com/HaraldBregu/MGTemplateKit.git"
+
 SPEC CHECKSUMS:
   Cosmos: 7dfaa3f52584ca5f94ab74b5c2e264019cc9f7f5
-  MGVideoPlayerKit: 0ea0fdc3e4a855390a12a333df5109af7a4108c9
+  Firebase: 0c8cf33f266410c61ab3e2265cfa412200351d9c
+  FirebaseAnalytics: ece1aa57a4f43c64d53a648b5a5e05151aae947b
+  FirebaseCore: f1a9a8be1aee4bf71a2fc0f4096df6788bdfda61
+  FirebaseInstanceID: a122b0c258720cf250551bb2bedf48c699f80d90
+  FontBlaster: 127aa66419478d1c62926c7fdb39841633344a45
+  Google-Mobile-Ads-SDK: e911f5544fc6488f8372a183627a802c8bdb5e36
+  GoogleAppMeasurement: ffe513e90551844a739e7bcbb1d2aca1c28a4338
+  GoogleUtilities: 04fce34bcd5620c1ee76fb79172105c74a4df335
+  MGTemplateKit: 42b5c6d3356add2ed830003a2343020a4618b016
+  MGVideoPlayerKit: 56c5d19205ff09efd314cad78d39df1c7c52d167
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  UIColor_Hex_Swift: bc07fc197421ee896b9ed6dcfa2054b7fbf75145
 
-PODFILE CHECKSUM: 07888f14ca5d4ed47eb369835e4768c4efac9faf
+PODFILE CHECKSUM: 2115ff38432475bf2c94aeefc9c05cbd29b64608
 
 COCOAPODS: 1.6.1

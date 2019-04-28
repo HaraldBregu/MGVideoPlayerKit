@@ -10,11 +10,15 @@ Pod::Spec.new do |s|
       :git => 'https://github.com/HaraldBregu/MGVideoPlayerKit.git', :tag => s.version.to_s
   }
   s.ios.deployment_target = '12.0'
-  s.swift_version = '4.2'
   s.source_files = 'MGVideoPlayerKit/Classes/**/*'
   s.resource_bundles = {
       'MGVideoPlayerKit' => ['MGVideoPlayerKit/Assets/*.{png,lproj,storyboard}']
   }
   s.dependency 'Cosmos', '~> 18.0'
   s.dependency 'SDWebImage', '~> 4.0'
+  s.dependency 'SnapKit', '~> 4.0.0'
+  s.static_framework = true
+  s.dependency 'Firebase/Core'
+  s.dependency 'Firebase/AdMob'
+  s.swift_version = '4.2'
 end
