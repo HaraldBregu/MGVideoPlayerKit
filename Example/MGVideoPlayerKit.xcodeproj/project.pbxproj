@@ -10,6 +10,7 @@
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		A91B6CC522758E51001C811E /* MGVideoPlayerAssetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91B6CC422758E51001C811E /* MGVideoPlayerAssetData.swift */; };
 		A9D715F422749CFC005A7B20 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9D715F322749CFC005A7B20 /* GoogleService-Info.plist */; };
 		BBD97704F58FC0BE44D9DB11 /* Pods_MGVideoPlayerKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B8FED46E2C9F2EBFE17074 /* Pods_MGVideoPlayerKit_Example.framework */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 		6A3AD70713349128067D695B /* Pods_MGVideoPlayerKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGVideoPlayerKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80CE51CB6DC4FCDF788C9D79 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		87947C9A1E6FD0F7544A49FE /* MGVideoPlayerKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MGVideoPlayerKit.podspec; path = ../MGVideoPlayerKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A91B6CC422758E51001C811E /* MGVideoPlayerAssetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGVideoPlayerAssetData.swift; sourceTree = "<group>"; };
 		A9D715F322749CFC005A7B20 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D0B8FED46E2C9F2EBFE17074 /* Pods_MGVideoPlayerKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGVideoPlayerKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				A91B6CC422758E51001C811E /* MGVideoPlayerAssetData.swift */,
 				A9D715F322749CFC005A7B20 /* GoogleService-Info.plist */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				A91B6CC522758E51001C811E /* MGVideoPlayerAssetData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
