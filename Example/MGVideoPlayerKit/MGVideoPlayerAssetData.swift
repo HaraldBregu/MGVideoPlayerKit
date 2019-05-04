@@ -27,8 +27,8 @@ import Foundation
 import MGVideoPlayerKit
 import MGTemplateKit
 
-extension Assets {
-    static var instance: MGVideoPlayerAsset {
+extension AssetsData {
+    static var setup: MGVideoPlayerAsset {
         
         var trailerList = [MGVideoPlayerItem]()
         
@@ -244,9 +244,10 @@ extension Assets {
                 toolBarContent: .white,
                 view: #colorLiteral(red: 0.168627451, green: 0.1607843137, blue: 0.2509803922, alpha: 1),
                 viewContent: .white,
+                refreshControl: .white,
+                activityIndicator: .white,
                 tableView: #colorLiteral(red: 0.168627451, green: 0.1607843137, blue: 0.2509803922, alpha: 1),
                 tableViewSeparator: #colorLiteral(red: 0.168627451, green: 0.1607843137, blue: 0.2509803922, alpha: 1),
-                refresh: .white,
                 searchBarContent: .white,
                 tableViewCell: #colorLiteral(red: 0.168627451, green: 0.1607843137, blue: 0.2509803922, alpha: 1),
                 tableViewCellContent: .white,
@@ -269,7 +270,7 @@ extension Assets {
 }
 
 protocol MGVideoPlayerAssetData {
-    static var instance: MGVideoPlayerAsset { get }
+    static var setup: MGVideoPlayerAsset { get }
 }
 
 struct VideoPlayerAsset: MGVideoPlayerAsset {
@@ -318,9 +319,10 @@ struct VideoPlayerColor: MGVideoPlayerColor {
     var toolBarContent: UIColor
     var view: UIColor
     var viewContent: UIColor
+    var refreshControl: UIColor
+    var activityIndicator: UIColor
     var tableView: UIColor
     var tableViewSeparator: UIColor
-    var refresh: UIColor
     var searchBarContent: UIColor
     var tableViewCell: UIColor
     var tableViewCellContent: UIColor

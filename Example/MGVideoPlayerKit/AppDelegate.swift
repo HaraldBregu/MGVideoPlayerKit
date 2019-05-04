@@ -11,7 +11,7 @@ import MGVideoPlayerKit
 import Firebase
 import MGTemplateKit
 
-class Assets: MGVideoPlayerAssetData {}
+class AssetsData: MGVideoPlayerAssetData {}
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, MGVideoPlayerControllerDelegate, MGVideoPlayerControllerDataSource {
@@ -25,7 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MGVideoPlayerControllerDe
         window = UIWindow(frame: UIScreen.main.bounds)
 
         let videoPlayerController = MGVideoPlayerListController.instance
-        videoPlayerController.assets = Assets.instance
+        videoPlayerController.assets = AssetsData.setup
         videoPlayerController.delegate = self
         videoPlayerController.dataSource = self
         
